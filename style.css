@@ -125,6 +125,11 @@ nav button {
     border-radius: 10px;
 }
 
+nav ul li:last-child {
+    margin-right: 0px;
+}
+
+.groupBookingsBox .groupBookingsRow80 input:hover,
 .heroGroupBookings button:hover,
 .descriptionOffers button:hover,
 .heroSpecial button:hover,
@@ -752,13 +757,109 @@ iframe {
     text-align: center;
 }
 
-.groupBookingsBox {
-    align-content: center;
-    text-align: center;
-    justify-content: center;
+.groupBookingsFormContainer {
+    position: relative;
+    width: 100%;
 }
 
-.groupBookingsBox .groupBookingsRow50 {
-    display: inline-flex;
-    gap: 50px;
+.groupBookingsFormContainer h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.groupBookingsFormContainer p {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.groupBookingsBox {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.groupBookingsBox span {
+    font-size: 11.5px;
+    font-weight: 500;
+    letter-spacing: 1.55px;
+    margin-bottom: 17.5px;
+    font-family: "Prompt", sans-serif;
+    line-height: 15px;
+    text-align: left;
+    color: black;
+}
+
+.groupBookingsBox .groupBookingsRow100 {
+    text-align: left;
+}
+
+.groupBookingsBox .groupBookingsRow50{
+    display: flex;
+    gap: 40px;
+}
+
+.groupBookingsBox .groupBookingsRow50 .groupBookingsInputBox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    width: 50%;
+}
+
+.groupBookingsBox .groupBookingsRow100 .groupBookingsInputBox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 27.5px;
+    width: 100%;
+}
+
+.groupBookingsBox .groupBookingsRow100 .groupBookingsInputBox label {
+    font-size: 10.5px;
+    font-weight: 300;
+    letter-spacing: 1.55px;
+    margin-bottom: 7.5px;
+    font-family: "Prompt", sans-serif;
+    color: #000000;
+}
+
+.groupBookingsBox input {
+    padding: 13.5px;
+    font-size: 14.5px;
+    outline: none;
+    border: none;
+    border-bottom: 1.5px solid #d7d7d7;
+    margin-bottom: 5px;
+    color: #000000;
+    font-weight: 400;
+    background-color: #efeeee95;
+}
+
+.groupBookingsBox .groupBookingsRow100 textarea {
+    padding: 13.5px;
+    height: 150px;
+    outline: none;
+    border: none;
+    border-bottom: 1.5px solid #d7d7d7;
+    resize: none;
+    margin-bottom: 10px;
+    background-color: #efeeee95;
+}
+
+.groupBookingsBox .submit-button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    font-size: 10.85px;
+    font-weight: 400;
+    cursor: pointer;
+    font-family: "Prompt", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.groupBookingsBox .groupBookingsRow80 input {
+    width: 100%;  
 }
