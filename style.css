@@ -125,6 +125,10 @@ nav button {
     border-radius: 10px;
 }
 
+.heroGroupBookings button:hover,
+.descriptionOffers button:hover,
+.heroSpecial button:hover,
+.accommodationInfo button:hover,
 .toursContainertext button:hover,
 .infoBlock button:hover,
 .promoDescription button:hover,
@@ -149,6 +153,8 @@ nav button:hover {
     text-align: center;
 }
 
+.heroGroupBookings h4,
+.heroSpecial h4,
 .heroWelcome h4 {
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -157,6 +163,8 @@ nav button:hover {
     color: white;
 }
 
+.heroGroupBookings h1,
+.heroSpecial h1,
 .heroWelcome h1 {
     margin-top: 30px;
     font-size: 61px;
@@ -166,6 +174,8 @@ nav button:hover {
 
 }
 
+.heroGroupBookings h2,
+.heroSpecial h2,
 .heroWelcome h2 {
     text-transform: uppercase;
     font-size: 26px;
@@ -175,6 +185,8 @@ nav button:hover {
     letter-spacing: 10px;
 }
 
+.heroGroupBookings button,
+.heroSpecial button,
 .heroWelcome button {
     padding: 20px 80px;
     margin-top: 60px;
@@ -307,9 +319,9 @@ h2 {
     margin-top: 25px;
     text-align: left;
     flex-direction: row;
-    flex-wrap: no-rap;
 }
 
+.offers img,
 .promos img,
 .ourRoom img {
     object-fit: cover;
@@ -318,6 +330,7 @@ h2 {
     
 }
 
+.descriptionOffers,
 .promoDescription,
 .ourRoomdescription {
     border: 1px solid black;
@@ -326,8 +339,10 @@ h2 {
     margin-top: 10px;
     padding: 27.5px 30px;
     position: relative;
+    text-align: left;
 }
 
+.accommodationInfo span,
 .ourRoomdescription span {
     letter-spacing: 2px;
     font-size: 14.5px;
@@ -341,6 +356,7 @@ h2 {
     margin-bottom: 15px;
 }
 
+.descriptionOffers h3,
 .promoDescription h3 {
     font-size: 26.5px;
     font-weight: 700;
@@ -355,6 +371,7 @@ h2 {
     color: black;
 }
 
+.descriptionOffers p,
 .toursContainertext p,
 .promoDescription p {
     font-size: 16px;
@@ -362,6 +379,7 @@ h2 {
     color: black;
 }
 
+.accommodationInfo button,
 .ourRoomdescription button {
     width: 100%;
     padding: 15px;
@@ -376,6 +394,7 @@ h2 {
     bottom: 0px;
 }
 
+.descriptionOffers button,
 .promoDescription button {
     width: 360px;
     padding: 15px;
@@ -538,7 +557,12 @@ iframe {
     border-radius: 50%;
     background-color: white;
     border: none;
-    cursor: pointer;
+    cursor: pointer;   
+}
+
+.socialIcons img {
+    width: 26px;
+    height: 26px;
     align-items: center;
     text-align: center;
     align-content: center;
@@ -592,3 +616,149 @@ iframe {
     color: green;
 }
 
+.heroAccommodation {
+    position: relative;
+    height: calc(100vh - 150px);
+	background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+    opacity: 1.5;
+    align-content: center;
+    text-align: center;
+}
+
+.accommodationOffers {
+    padding: 0px 75px 75px;
+    width: 100%;
+    text-align: left;
+}
+
+.accommodationOfferscontainer {
+    margin-top: 75px;
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    text-align: left;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accommodationInfo {
+    width: 600px;
+}
+
+.accommodationInfo img {
+    width: 600px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.accommodationInfodescription {
+    border: 1px solid black;
+    width: 600px;
+    height: 100px;
+    margin: 10px 0px 10px;
+    padding: 15px;
+}
+
+.accommodationOfferscontainer2 {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    text-align: left;
+    gap: 50px;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+
+.accommodationPic img {
+    width: 600px;
+    height: 550px;
+}
+
+.accommodationPic1 img {
+    width: 600px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.accommodationInfo p {
+    line-height: 2.25;
+    margin-bottom: 50px;
+}
+
+.accommodationInfo h2 {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.accommodationInfodescription p {
+    letter-spacing: 2px;
+    font-size: 14.5px;
+    font-weight: 500;
+    color: black;
+    line-height: 2.25;
+}
+
+.heroSpecial {
+    position: relative;
+    height: calc(100vh - 150px);
+	background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+    opacity: 2;
+    align-content: center;
+    text-align: center;
+}
+
+.specialOffersPage {
+    padding: 50px 50px 75px;
+    width: 100%;
+    text-align: center;
+}
+
+.specialOfferspageContainer {
+    display: inline-flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.heroGroupBookings {
+    position: relative;
+    height: calc(100vh - 150px);
+	background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+    opacity: 2;
+    align-content: center;
+    text-align: center;
+}
+
+.groupBookingsPage {
+    padding: 75px;
+    width: 100%;
+    text-align: center;
+}
+
+.groupBookingsBox {
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.groupBookingsBox .groupBookingsRow50 {
+    display: inline-flex;
+    gap: 50px;
+}
