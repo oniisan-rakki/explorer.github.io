@@ -96,7 +96,7 @@ nav ul li {
 
 nav ul li a {
     color: black;
-    font-size: 12.5px;
+    font-size: 11.5px;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -130,6 +130,7 @@ nav ul li:last-child {
     margin-right: 0px;
 }
 
+.bookNowBox .bookNow25 .bookNowInputBox .availability-button:hover,
 .contactPageBox .contactPageRow60 input:hover,
 .contactContent div button:hover,
 .groupBookingsBox .groupBookingsRow80 input:hover,
@@ -166,7 +167,7 @@ nav button:hover {
 .heroWelcome h4 {
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     color: white;
 }
@@ -175,7 +176,7 @@ nav button:hover {
 .heroSpecial h1,
 .heroWelcome h1 {
     margin-top: 30px;
-    font-size: 61px;
+    font-size: 48px;
     font-weight: 800;
     letter-spacing: 5px;
     color: white;
@@ -186,7 +187,7 @@ nav button:hover {
 .heroSpecial h2,
 .heroWelcome h2 {
     text-transform: uppercase;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 700;
     margin-top: 22.5px;
     color: white;
@@ -196,7 +197,7 @@ nav button:hover {
 .heroGroupBookings button,
 .heroSpecial button,
 .heroWelcome button {
-    padding: 20px 80px;
+    padding: 17.5px 70px;
     margin-top: 60px;
     background-color: white;
     cursor: pointer;
@@ -204,7 +205,7 @@ nav button:hover {
     border: none;
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 12.5px;
+    font-size: 11.5px;
     font-weight: 600;
 }
 
@@ -244,7 +245,7 @@ nav button:hover {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 36px;
     line-height: 1.25;
     margin-bottom: 25px;
     font-weight: 600;
@@ -253,7 +254,7 @@ h2 {
 .contactContent a,
 .contactPageContent p,
 .welcomeText p {
-    font-size: 18.5px;
+    font-size: 16px;
     font-weight: 300;
     color: black;
     line-height: 2;
@@ -296,7 +297,7 @@ h2 {
 }
 
 .toursContainertext h3 {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
     margin-bottom: 20px;  
 }
@@ -357,27 +358,29 @@ h2 {
 .accommodationInfo span,
 .ourRoomdescription span {
     letter-spacing: 2px;
-    font-size: 14.5px;
+    font-size: 12.5px;
     font-weight: 500;
 }
 
 .ourRoomdescription h3 {
-    font-size: 25px;
-    font-weight: 700;
+    font-size: 23px;
+    font-weight: 600;
     margin-top: 30px;
     margin-bottom: 15px;
 }
 
+.bookOptionsDescription h4,
 .descriptionOffers h3,
 .promoDescription h3 {
-    font-size: 26.5px;
-    font-weight: 700;
+    font-size: 23px;
+    font-weight: 600;
     margin-bottom: 17.5px;
 }
 
+
 .ourRoomdescription p {
     letter-spacing: 2px;
-    font-size: 14.5px;
+    font-size: 12.5px;
     font-weight: 500;
     margin-bottom: 37.5px;
     color: black;
@@ -673,7 +676,7 @@ iframe {
     width: 600px;
     height: 100px;
     margin: 10px 0px 10px;
-    padding: 15px;
+    padding: 20px;
 }
 
 .accommodationOfferscontainer2 {
@@ -709,7 +712,7 @@ iframe {
 
 .accommodationInfodescription p {
     letter-spacing: 2px;
-    font-size: 14.5px;
+    font-size: 12.5px;
     font-weight: 500;
     color: black;
     line-height: 2.25;
@@ -789,7 +792,7 @@ iframe {
 
 .contactPageBox span,
 .groupBookingsBox span {
-    font-size: 12.5px;
+    font-size: 11.5px;
     font-weight: 500;
     letter-spacing: 1.5px;
     margin-bottom: 17.5px;
@@ -946,4 +949,205 @@ iframe {
 	background-position: center;
 	background-size: cover;
     background-attachment: fixed;
+}
+
+.bookOptions {
+    padding: 75px 50px 25px;
+    background-color: #c3c3c318;
+    width: 100%;
+}
+
+.bookOption {
+    background-color: white;
+    border-radius: 60px;
+    margin-bottom: 65px;
+}
+
+.roomSlideDescription {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+.roomSlideShow {
+    flex: 1;
+    width: 50%;
+    position: relative;
+    border-top-left-radius: 30px;
+}
+
+.roomSlideShow button {
+    position: absolute;
+}
+
+.mySlides {
+    display: none;
+}
+
+.roomSlideShow img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+}
+
+.bookOptionsDescription {
+    flex: 1;
+    width: 50%;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.bookOptionsDescription p {
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    line-height: 1.85;
+}
+
+.roomOptionPriceSelection {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.roomOptionPriceSelection .roomOptionPriceSelectionRow100 {
+        padding: 20px 50px;
+        font-size: 14.5px;
+        outline: none;
+        border: none;
+        border-bottom: 1.5px solid #eeeeee;
+        margin-bottom: 5px;
+        color: #000000;
+        font-weight: 400;
+}
+
+.roomOptionPriceSelection .roomOptionPriceSelectionRow100:last-child {
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.roomOptionPriceSelection .roomOptionPriceSelectionRow100 input {
+    margin-right: 30px;
+}
+
+.roomSlideShow button img {
+    display: none;
+}
+
+.bookNowHeader {
+    height: 300px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.bookNowHeader .logo {
+    width: 350px;
+    height: 75px;
+    margin-top: 25px;
+}
+
+.bookNowHeader button {
+    position: absolute;
+    left: 50px;
+    background-color: transparent;
+    border: none;
+    top: 70px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.bookNowHeader button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.bookNowForm {
+    width: 100%;
+    position: relative;
+
+}
+
+.bookNowBox {
+    width: 100%;
+    position: relative;
+    padding: 50px 25px;
+    
+}
+
+.bookNowBox form {
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #efeeee95;
+    width: 100%;
+    border: 2px solid #c3c3c318;
+    border-radius: 60px;
+    height: 75px;
+    padding: 30px;
+}
+
+.bookNowBox .bookNow25 {
+    display: flex;
+    width: 50%;
+}
+
+.bookNowBox .bookNow25 .bookNowInputBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bookNowBox span {
+    font-size: 11.5px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin-bottom: 5px;
+    line-height: 15px;
+    text-align: left;
+    color: black;
+    margin-left: 1.5px;
+}
+
+.bookNowBox .bookNow25 .bookNowInputBox select {
+    border: none;
+    background-color: transparent;
+}
+
+.bookNowBox .bookNow25 .bookNowInputBox .availability-button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    font-size: 10.5px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 60px;
+}
+
+.bookNowBox .bookNow25 .bookNowInputBox .discount {
+    border: none;
+    background-color: white;
+    padding: 10px 10px;
+    width: 225px;
+    color: black;
+    font-size: 13.5px;
+    font-weight: 500;
+    border-radius: 60px;
+}
+
+.bookNowBox .bookNow25 .bookNowInputBox input {
+    border: none;
+    background-color: transparent;
 }
