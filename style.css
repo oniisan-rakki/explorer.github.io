@@ -130,6 +130,7 @@ nav ul li:last-child {
     margin-right: 0px;
 }
 
+.reservationDetails button:hover,
 .bookNowBox .bookNow25 .bookNowInputBox .availability-button:hover,
 .contactPageBox .contactPageRow60 input:hover,
 .contactContent div button:hover,
@@ -513,6 +514,7 @@ footer a {
     line-height: 1.75;
 }
 
+.reservationDetailsContainer form a:hover,
 footer a:hover {
     color: green;
 }
@@ -951,10 +953,73 @@ iframe {
     background-attachment: fixed;
 }
 
+.bookOptionsContainer {
+    display: flex;
+    gap: 30px;
+    position: relative;
+}
+
 .bookOptions {
     padding: 75px 50px 25px;
     background-color: #c3c3c318;
-    width: 100%;
+    width: 100%; /*change to 80%*/
+    position: relative;
+}
+
+.reservationDetails {
+    top: 0px;
+    width: 0%; /*change to 20%*/
+    padding: 100px 20px;
+    height: 100vh;
+    position: relative;
+    display: none;
+}
+
+.reservationDetailsContainer {
+   position: relative;
+   height: 100%;
+   width: 100%;
+}
+
+.reservationDetails h3 {
+    margin-bottom: 35px;
+    font-size: 23px;
+    font-weight: 600px;
+}
+
+.reservationDetails h4 {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.reservationDetailsContainer form input{
+    margin-right: 10px;
+    align-items: center;
+}
+
+.reservationDetailsContainer form label {
+    font-size: 12.5px;
+    color: black;
+    
+}
+
+.reservationDetailsContainer form a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.reservationDetails button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 35px;
 }
 
 .bookOption {
@@ -1150,4 +1215,9 @@ iframe {
 .bookNowBox .bookNow25 .bookNowInputBox input {
     border: none;
     background-color: transparent;
+}
+
+.bookNowFooter {
+    height: 50px;
+    padding: 0px;
 }
