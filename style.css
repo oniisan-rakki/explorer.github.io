@@ -299,6 +299,7 @@ h2 {
     padding: 40px 30px 40px 40px;
 }
 
+.termsAndConditons h3,
 .privacyPolicy h3,
 .reservationDetailsCheck h3,
 .toursContainertext h3 {
@@ -1335,6 +1336,7 @@ iframe {
     background-attachment: fixed;
 }
 
+.termsAndConditons p,
 .privacyPolicy p {
     line-height: 2;
     margin-bottom: 30px;
