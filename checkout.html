@@ -7,20 +7,30 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header class="bookNowHeader">
-            <button><img src="" alt="">Back</button>
+        <header class="checkoutHeader">
+            <button class="backButton"><img src="" alt="">Back</button>
             <a href="index.html"><img src="" alt="" class="logo"></a>
             <div class="progressCheckOut">
                 <div class="progress">
-                    <button><img src="" alt=""> Choose a room</button>
+                    <button class="completed"><img src="" alt=""> Choose a room</button>
                 </div>
                 <div class="progress">
                     <button><img src="" alt=""> Check out</button>
                 </div>
             </div>
+            <div class="reservationDetailsCheck">
+                <h3>Your Reservation</h3>
+                <div class="reservationDetailsCheckContainer">
+                    <h4>Room Selections:</h4>
+                    <h4>Guests:</h4>
+                    <h4>Arrival Date:</h4>
+                    <h4>Departure Date:</h4>
+                    <h4>Room Nights:</h4>
+                    <h4>Total:</h4>
+                </div>
+            </div>
         </header>
         <section class="checkOut">
-            <div class="detailsFromBookNow"></div>
             <div class="checkOutFormContainer">
                 <div class="checkOutForm">
                     <div class="checkOutFormBox">
@@ -48,7 +58,7 @@
                             <div class="checkOutInputBox">
                                 <span>Select your country</span>
                                 <select required>
-                                    <option></option>
+                                    <option>Select your country</option>
                                     <option>Afghanistan </option>
                                     <option>Albania </option>
                                     <option>Algeria </option>
@@ -252,7 +262,7 @@
                             </div>
                             <div class="checkOutInputBox">
                                 <span>Select your estimated arrival time</span>
-                                <select required></select>
+                                <input type="time" required>
                             </div>
                         </div>
                         <div class="checkOutFormRow100">
@@ -263,12 +273,12 @@
                         </div>
                         <div class="checkOutFormRow100">
                             <div class="checkOutInputBox">
-                                <label><input type="checkbox">I accept Explorer Backpackers' <a href="">Terms & Conditons</a>.</label>
+                                <label><input type="checkbox" required class="space">I accept Explorer Backpackers' <a href="">Terms & Conditons</a>.</label>
                             </div>
                         </div>
                         <div class="checkOutFormRow60">
                             <div class="checkOutInputBox">
-                                <input type="submit" value="Pay Now">
+                                <input type="submit" value="Pay Now" class="submit-button">
                             </div>
                         </div>
                     </div>

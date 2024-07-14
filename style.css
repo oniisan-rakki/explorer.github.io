@@ -130,6 +130,7 @@ nav ul li:last-child {
     margin-right: 0px;
 }
 
+.checkOutFormBox .submit-button:hover,
 .reservationDetails button:hover,
 .bookNowBox .bookNow25 .bookNowInputBox .availability-button:hover,
 .contactPageBox .contactPageRow60 input:hover,
@@ -297,6 +298,7 @@ h2 {
     padding: 40px 30px 40px 40px;
 }
 
+.reservationDetailsCheck h3,
 .toursContainertext h3 {
     font-size: 24px;
     font-weight: 700;
@@ -378,7 +380,7 @@ h2 {
     margin-bottom: 17.5px;
 }
 
-
+.reservationDetailsCheckContainer h4,
 .ourRoomdescription p {
     letter-spacing: 2px;
     font-size: 12.5px;
@@ -514,6 +516,11 @@ footer a {
     line-height: 1.75;
 }
 
+.checkOutInputBox a {
+    color: #000000;
+}
+
+.checkOutInputBox a:hover,
 .reservationDetailsContainer form a:hover,
 footer a:hover {
     color: green;
@@ -792,6 +799,7 @@ iframe {
     padding-right: 100px;
 }
 
+.checkOutFormBox span,
 .contactPageBox span,
 .groupBookingsBox span {
     font-size: 11.5px;
@@ -803,17 +811,20 @@ iframe {
     color: black;
 }
 
+.checkOutFormBox .checkOutFormRow100,
 .contactPageBox .contactPageRow100,
 .groupBookingsBox .groupBookingsRow100 {
     text-align: left;
 }
 
+.checkOutFormBox .checkOutFormRow50,
 .contactPageBox .contactPageRow50,
 .groupBookingsBox .groupBookingsRow50{
     display: flex;
     gap: 40px;
 }
 
+.checkOutFormBox .checkOutFormRow50 .checkOutInputBox,
 .contactPageBox .contactPageRow50 .contactPageInputBox,
 .groupBookingsBox .groupBookingsRow50 .groupBookingsInputBox {
     display: flex;
@@ -822,6 +833,7 @@ iframe {
     width: 50%;
 }
 
+.checkOutFormBox .checkOutFormRow100 .checkOutInputBox,
 .contactPageBox .contactPageRow100 .contactPageInputBox,
 .groupBookingsBox .groupBookingsRow100 .groupBookingsInputBox {
     display: flex;
@@ -838,6 +850,8 @@ iframe {
     color: #000000;
 }
 
+.checkOutFormBox select,
+.checkOutFormBox input,
 .contactPageBox input,
 .groupBookingsBox input {
     padding: 15px;
@@ -851,6 +865,7 @@ iframe {
     background-color: #efeeee95;
 }
 
+.checkOutFormBox .checkOutFormRow100 textarea,
 .contactPageBox .contactPageRow100 textarea,
 .groupBookingsBox .groupBookingsRow100 textarea {
     padding: 13.5px;
@@ -864,6 +879,7 @@ iframe {
     background-color: #efeeee95;
 }
 
+.checkOutFormBox .submit-button,
 .contactPageBox .submit-button,
 .groupBookingsBox .submit-button {
     background-color: #000000;
@@ -879,6 +895,7 @@ iframe {
     margin-top: 50px;
 }
 
+.checkOutFormBox .checkOutFormRow60 input,
 .contactPageBox .contactPageRow60 input,
 .groupBookingsBox .groupBookingsRow80 input {
     width: 100%;  
@@ -1108,12 +1125,14 @@ iframe {
     text-align: center;
 }
 
+.checkoutHeader .logo,
 .bookNowHeader .logo {
     width: 350px;
     height: 75px;
     margin-top: 25px;
 }
 
+.checkoutHeader .backButton,
 .bookNowHeader button {
     position: absolute;
     left: 50px;
@@ -1220,4 +1239,71 @@ iframe {
 .bookNowFooter {
     height: 50px;
     padding: 0px;
+}
+
+.checkoutHeader {
+    width: 100%;
+    position: relative;
+    height: 340px;
+    text-align: center;
+    position: relative;
+    padding: 20px 0px 0px;
+}
+
+.progressCheckOut {
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+
+.progress {
+    width: 50%;
+    position: relative;
+}
+
+.progressCheckOut button {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    background-color: #eeeeee;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12.5px;
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    position: relative;
+    left: 0px;
+}
+
+.progressCheckOut .progress .completed {
+    background-color: black;
+    color: white;
+}
+
+.reservationDetailsCheck {
+    text-align: left;
+    padding: 25px 50px 50px;
+}
+
+.reservationDetailsCheckContainer {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    gap: 50px;
+}
+
+.checkOut {
+    padding: 50px;
+    text-align: center;
+}
+
+.space {
+    margin-right: 10px;
 }
