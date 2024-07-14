@@ -105,6 +105,7 @@ nav ul li a:hover {
     color: #606060;
 }
 
+.privacyPolicy a:hover,
 .contactContent div a:hover,
 nav ul li .active {
     color: green;
@@ -298,6 +299,7 @@ h2 {
     padding: 40px 30px 40px 40px;
 }
 
+.privacyPolicy h3,
 .reservationDetailsCheck h3,
 .toursContainertext h3 {
     font-size: 24px;
@@ -1306,4 +1308,48 @@ iframe {
 
 .space {
     margin-right: 10px;
+}
+
+.privacyPolicy,
+.termsAndConditons {
+    padding: 50px;
+}
+
+.heroTermsAndConditons {
+    position: relative;
+    height: 50vh;
+    background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+.heroPrivacyPolicy {
+    position: relative;
+    height: 50vh;
+    background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+.privacyPolicy p {
+    line-height: 2;
+    margin-bottom: 30px;
+}
+
+.privacyPolicy ul li {
+    list-style: disc;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.privacyPolicy a {
+    color: #000000;
+}
+
+.privacyPolicy h3 {
+    margin-top: 30px;
 }
