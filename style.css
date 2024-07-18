@@ -1700,7 +1700,7 @@ iframe {
         position: relative;
         width: 100%;
         background-color: black;
-        padding: 30px 30px 80px;
+        padding: 30px 30px 100px;
         color: white;
     }
 
@@ -1831,7 +1831,7 @@ iframe {
 
     .bottomBar p {
         color: black;
-        font-size: 10.5px;
+        font-size: 11.5px;
         margin-top: 5px;
         font-weight: 300;
     }
@@ -1847,7 +1847,7 @@ iframe {
 
     .bottomBar ul li a {
         color: black;
-        font-size: 10.5px;
+        font-size: 11.5px;
     }
 
     .bottomBar ul li a:hover {
