@@ -13,6 +13,10 @@
     font-family: "Montserrat", sans-serif;
 }
 
+.mobileMenu {
+    display: none;
+}
+
 header {
     width: 100%;
     position: relative;
@@ -163,6 +167,7 @@ nav button:hover {
     opacity: 1.5;
     align-content: center;
     text-align: center;
+    width: 100%;
 }
 
 .heroGroupBookings h4,
@@ -245,6 +250,7 @@ nav button:hover {
     width: 500px;
     height: 600px;
     margin-right: 30px;
+    object-fit: cover;
 }
 
 h2 {
@@ -1354,4 +1360,131 @@ iframe {
 
 .privacyPolicy h3 {
     margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        display: none;
+    }
+
+    .mobileMenu {
+        display: flex;
+        height: 100px;
+        width: 100%;
+        padding: 20px;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+
+    .mobileMenu button {
+        background-color: transparent;
+        border: none;
+    }
+
+    .mobileMenu .mobileMenuLogo {
+        width: 250px;
+        height: 70px;
+        object-fit: cover;
+    }
+
+    .heroGroupBookings h4,
+    .heroSpecial h4,
+    .heroWelcome h4 {
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 13px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .heroGroupBookings h1,
+    .heroSpecial h1,
+    .heroWelcome h1 {
+        margin-top: 15px;
+        font-size: 36px;
+        font-weight: 800;
+        letter-spacing: 5px;
+        color: white;
+    }
+
+    .heroGroupBookings h2,
+    .heroSpecial h2,
+    .heroWelcome h2 {
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 22.5px;
+        color: white;
+        letter-spacing: 10px;
+    }
+
+    .heroGroupBookings button,
+    .heroSpecial button,
+    .heroWelcome button {
+        padding: 15px 50px;
+        margin-top: 45px;
+        background-color: white;
+        cursor: pointer;
+        border-radius: 10px;
+        border: none;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 8.5px;
+        font-weight: 600;
+    }
+
+    .welcome {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        padding: 40px 40px 0px;
+        align-items: center;
+    }
+
+    .welcomeContainer {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .welcomeText {
+        flex: 1;
+        width: 100%;
+        align-items: center;
+        align-content: center;
+        text-align: left;
+    }
+
+    .welcome-image {
+        flex: 1;
+        width: 100%;
+        align-items: center;
+        align-content: center;
+        text-align: right;
+    }
+
+    .welcome-image img {
+        width: 330px;
+        height: 450px;
+        
+        object-fit: cover;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 1.5;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
+
+    .contactContent a,
+    .contactPageContent p,  
+    .welcomeText p {
+        font-size: 15px;
+        font-weight: 300;
+        color: black;
+        line-height: 2;
+    }
 }
