@@ -1,0 +1,7 @@
+// showOffers()
+// showExperiences()
+// openChat()
+// openMobileMenu()
+// goToNextSectionHome()
+// goToNextSectionAccommodation()
+// goToNextSectionGroupBookings()
