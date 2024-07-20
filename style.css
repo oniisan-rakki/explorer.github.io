@@ -92,6 +92,7 @@ nav ul {
 nav img {
     width: 350px;
     height: 75px;
+    object-fit: cover;
 }
 
 nav ul li {
