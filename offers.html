@@ -35,13 +35,29 @@
                 </ul> 
             </nav>
         </header>
+        <div class="mobileMenu">
+            <a href="index.html"><img src="" alt="" class="mobileMenuLogo"></a>
+            <button id="hamburger"><img src="menu.svg" alt=""></button>
+            <button id="close" class="close-btn"><img src="close.svg" alt=""></button>
+        </div>
+        <div id="mobileMenu" class="mobileMenuLinks">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="accommodation.html">Accommodation</a></li>
+                <li><a href="www.explorertours.com">Experiences</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="groupbookings.html">Group Bookings</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button onclick="document.location='book.html'">Book Now</button></li>
+            </ul>
+        </div>
         <section class="heroSpecial">
             <h4>Special Offers</h4>
             <h1>Discounts & Monthly Rates</h1>
             <h2>At Explorer Backpackers</h2>
-            <button>Learn More</button>
+            <button onclick="document.getElementById('specialOffersPage').scrollIntoView()">Learn More</button>
         </section>
-        <section class="specialOffersPage">
+        <section id="specialOffersPage" class="specialOffersPage">
             <h2>Special Offers</h2>
             <div class="specialOfferspageContainer">
                 <div class="offers">
@@ -100,10 +116,10 @@
                 <div class="infoBlock">
                     <h3>Get Social</h3>
                     <div class="socialIcons">
-                        <button><img src="" alt=""></button>
-                        <button><img src="" alt=""></button>
-                        <button><img src="" alt=""></button>
-                        <button><img src="" alt=""></button>
+                        <button><img src="instagram.svg" alt=""></button>
+                        <button><img src="facebook.svg" alt=""></button>
+                        <button><img src="twitter.svg" alt=""></button>
+                        <button><img src="tiktok.svg" alt=""></button>
                     </div>
                     <button>Tag us in your photos!</button>
                 </div>

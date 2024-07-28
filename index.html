@@ -37,13 +37,25 @@
         </header>
         <div class="mobileMenu">
             <a href="index.html"><img src="" alt="" class="mobileMenuLogo"></a>
-            <button onclick="openMobileMenu()"><img src="menu.svg" alt=""></button>
+            <button id="hamburger"><img src="menu.svg" alt=""></button>
+            <button id="close" class="close-btn"><img src="close.svg" alt=""></button>
+        </div>
+        <div id="mobileMenu" class="mobileMenuLinks">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="accommodation.html">Accommodation</a></li>
+                <li><a href="www.explorertours.com">Experiences</a></li>
+                <li><a href="offers.html">Offers</a></li>
+                <li><a href="groupbookings.html">Group Bookings</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button onclick="document.location='book.html'">Book Now</button></li>
+            </ul>
         </div>
         <section class="heroWelcome">
                 <h4>Welcome to</h4>
                 <h1>Explorer</h1>
                 <h2>Backpackers</h2>
-                <button onclick="goToNextSectionHome()">Learn More</button>
+                <button onclick="document.getElementById('welcome').scrollIntoView()">Learn More</button>
         </section>
         <section class="welcome" id="welcome">
             <div class="welcomeContainer">
@@ -167,7 +179,7 @@
             <div class="testimonialsContainer">
                 <div class="testimonial">
                     <button>
-                        <img src="" alt="">
+                        <img src="quote.svg" alt="">
                         <p>This is a really good place to stay if you are on a budget or if you want to meet with like-minded people.
                             Friendly and knowledgeable hosts. Clean, comfortable beds and rooms, hot showers and more</p>
                         <h4>-<br>John Dovey, South Africa</h4>
@@ -175,42 +187,42 @@
                 </div>
                 <div class="testimonial">
                     <button>
-                        <img src="" alt="">
+                        <img src="quote.svg" alt="">
                         <p>It felt like home. The staff is super friendly and helpful. I loved the place its a great mix of a quiet place to get some work done and to go out in the evening or to venture out to other places in Joburg. Will definetely come back! Also the Breakfast was amazing!</p>
                         <h4>-<br>Marlous Wilhelmi, Germany</h4>
                     </button>
                 </div>
                 <div class="testimonial">
                     <button>
-                        <img src="" alt="">
+                        <img src="quote.svg" alt="">
                         <p>One of the best back packers if not the best in Joburg! Perfectly located. Ideal for the simple traveler who is looking for value. Also great for travelling young professional.</p>
                         <h4>-<br>Nomisupasta Media, South Africa</h4>
                     </button>
                 </div>
                 <div class="testimonial">
                     <button>
-                        <img src="" alt="">
+                        <img src="quote.svg" alt="">
                         <p>Just the perfect stay that I could hope for in Johannesburg! Beautiful and safe area, clean accommodation and awesome host! Would love to come back some day.</p>
                         <h4>-<br>Anonymous</h4>
                     </button>
                 </div>
                 <div class="testimonial">
                     <button>
-                        <img src="" alt="">
+                        <img src="quote.svg" alt="">
                         <p>Awesome spot right in a nice neighborhood of Joburg called Parkhurst. The rooms are super clean and furnished in a modern way, the common area is inviting and a heater can be turned on when it's chilly. The staff was very friendly and knowledgeable. Highly recommend!</p>
                         <h4>-<br>DDA Browiecki, United States</h4>
                     </button>
                 </div>
                 <div class="testimonial">
                     <button>
-                        <img src="" alt="">
+                        <img src="quote.svg" alt="">
                         <p>The staff was amazing! Such great community vibes. Beds super comfortable and LOVED the huge living room. Felt very homey and cozy. Location is perfect as well!</p>
                         <h4>-<br>Laurence, Canada</h4>
                     </button>
                 </div>
                 <div class="testimonial">
                     <button>
-                        <img src="" alt="">
+                        <img src="quote.svg" alt="">
                         <p>I loved the place. Staff and managers are kind, helpful. It looks exactly like the photos. Quiet.
                             Drawers are good, so you can put everything in it.</p>
                         <h4>-<br>Ebru, Turkey</h4>
@@ -232,10 +244,10 @@
                 <div class="infoBlock">
                     <h3>Get Social</h3>
                     <div class="socialIcons">
-                        <button><img src="" alt=""></button>
-                        <button><img src="" alt=""></button>
-                        <button><img src="" alt=""></button>
-                        <button><img src="" alt=""></button>
+                        <button><img src="instagram.svg" alt=""></button>
+                        <button><img src="facebook.svg" alt=""></button>
+                        <button><img src="twitter.svg" alt=""></button>
+                        <button><img src="tiktok.svg" alt=""></button>
                     </div>
                     <button>Tag us in your photos!</button>
                 </div>
