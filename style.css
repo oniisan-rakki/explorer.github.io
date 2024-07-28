@@ -2603,11 +2603,65 @@ iframe {
         justify-content: space-between;
         align-items: center;
         align-content: center;
+        position: fixed;
+        background-color: white;
+        z-index: 99999999999;
+        top: 0px;
     }
 
     .mobileMenu button {
         background-color: transparent;
         border: none;
+    }
+
+    .close-btn {
+        background-color: black;
+        display: none;
+        height: 55px;
+        width: 55px;
+        position: absolute;
+        right: 5px;
+        top: 30px;
+    }
+
+    .mobileMenuLinks {
+        display: none;
+        width: 100%;
+        display: none;
+        position: fixed;
+        background-color: #000000;
+        height: 70vh;
+        padding: 75px;
+        top: 0px;
+        color: white;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        z-index: 9999999999;
+        margin-top: 100px;
+    }
+    
+    .mobileMenuLinks ul li {
+        margin-bottom: 30px;
+    }
+    
+    .mobileMenuLinks ul li a {
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .mobileMenuLinks ul li button {
+        font-size: 13px;
+        text-transform: uppercase;
+        padding: 15px 52.5px;
+        border: none;
+        font-weight: 600;
+        cursor: pointer;
+        color: black;
+        background-color: white;
+        border-radius: 5px;
+        width: 100%;
+        margin-top: 30px;
     }
 
     .mobileMenu .mobileMenuLogo {
@@ -2629,6 +2683,7 @@ iframe {
         text-align: center;
         width: 100%;
         overflow: hidden;
+        margin-top: 100px;
     }
 
     .heroGroupBookings h4,
@@ -2709,7 +2764,7 @@ iframe {
     }
 
     .welcome-image img {
-        width: 330px;
+        width: 310px;
         height: 450px;
         object-fit: cover;
     }
@@ -2731,17 +2786,17 @@ iframe {
     }
 
     .tours {
-        height: 100vh;
+        height: 110vh;
         align-items: center;
         width: 100%;
         text-align: center;
         overflow: hidden;
-        padding: 30px 30px 10px;
+        padding: 15px 30px 10px;
     }
     
     .promosOffers,
     .accommodation {
-        height: 85vh;
+        height: 95vh;
         padding: 50px 40px 40px;
         align-items: center;
         width: 100%;
@@ -2793,7 +2848,7 @@ iframe {
     .promos img,
     .ourRoom img {
         object-fit: cover;
-        width: 330px;
+        width: 310px;
         height: 300px;
         
     }
@@ -2802,8 +2857,8 @@ iframe {
     .promoDescription,
     .ourRoomdescription {
         border: 1px solid black;
-        width: 330px;
-        height: 275px;
+        width: 310px;
+        height: 295px;
         margin-top: 10px;
         padding: 27.5px 30px;
         position: relative;
@@ -2880,7 +2935,7 @@ iframe {
         text-align: center;
         width: 100%;
         overflow: hidden;
-        padding: 75px;
+        padding: 30px;
         color: white;
     }
     
@@ -2888,15 +2943,15 @@ iframe {
         position: absolute;
         width: 50px;
         height: 50px;
-        top: 70px;
+        top: 50px;
         left: 30px;
     }
     
     .testimonial p {
         position: absolute;
-        width: 85%;
+        width: 70%;
         left: 30px;
-        top: 155px;
+        top: 130px;
         font-size: 16px;
         color: white;
         font-weight: 300;
@@ -2905,7 +2960,8 @@ iframe {
     .testimonial h4 {
         position: absolute;
         left: 30px;
-        bottom: 70px;
+        width: 70%;
+        bottom: 30px;
         font-size: 16px;
         font-weight: 700;
         color: white;
@@ -2924,7 +2980,7 @@ iframe {
 
 
     footer {
-        height: 155vh;
+        height: 170vh;
         position: relative;
         width: 100%;
         background-color: black;
@@ -3001,7 +3057,7 @@ iframe {
     }
 
     iframe {
-        width: 285px;
+        width: 250px;
         height: 180px;
         border-radius: 5px;
     }
@@ -3009,7 +3065,7 @@ iframe {
     .socialIcons {
         margin-top: 15px;
         display: inline-flex;
-        gap: 20px;
+        gap: 10px;
         margin-bottom: 30px;
     }
 
@@ -3043,7 +3099,7 @@ iframe {
     }
 
     .bottomBarContainer {
-        height: 175px;
+        height: 200px;
         position: absolute;
         bottom: 0px;
         z-index: 3;
