@@ -2686,6 +2686,7 @@ iframe {
         margin-top: 100px;
     }
 
+    .heroAccommodation h4,
     .heroGroupBookings h4,
     .heroSpecial h4,
     .heroWelcome h4 {
@@ -2696,6 +2697,7 @@ iframe {
         color: white;
     }
 
+    .heroAccommodation h1,
     .heroGroupBookings h1,
     .heroSpecial h1,
     .heroWelcome h1 {
@@ -2706,6 +2708,7 @@ iframe {
         color: white;
     }
 
+    .heroAccommodation h2,
     .heroGroupBookings h2,
     .heroSpecial h2,
     .heroWelcome h2 {
@@ -2717,6 +2720,7 @@ iframe {
         letter-spacing: 10px;
     }
 
+    .heroAccommodation button,
     .heroGroupBookings button,
     .heroSpecial button,
     .heroWelcome button {
@@ -2995,6 +2999,7 @@ iframe {
         font-size: 25px;
         left: 30px;
         text-align: left;
+        width: 80%;
     }
 
     footer h3 {
@@ -3148,24 +3153,30 @@ iframe {
         background-attachment: fixed;
         opacity: 1.5;
         align-content: center;
+        justify-content: center;
         text-align: center;
+        text-align: center;
+        padding: 40px;
+        margin-top: 100px;
+        overflow: hidden;
     }
 
     .accommodationOffers {
-        padding: 0px 75px 75px;
+        padding: 0px 40px 40px;
         width: 100%;
         text-align: left;
     }
 
     .accommodationOfferscontainer {
         margin-top: 75px;
-        display: inline-flex;
+        display: flex;
         width: 100%;
         flex-direction: row;
         text-align: left;
         gap: 50px;
         align-items: center;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     .accommodationInfo {
@@ -3173,15 +3184,15 @@ iframe {
     }
 
     .accommodationInfo img {
-        width: 600px;
-        height: 550px;
+        width: 310px;
+        height: 300px;
         object-fit: cover;
     }
 
     .accommodationInfodescription {
         border: 1px solid black;
-        width: 600px;
-        height: 100px;
+        width: 310px;
+        height: 150px;
         margin: 10px 0px 10px;
         padding: 20px;
     }
@@ -3194,16 +3205,18 @@ iframe {
         gap: 50px;
         justify-content: space-between;
         margin-top: 75px;
+        flex-wrap: wrap;
     }
 
     .accommodationPic img {
-        width: 600px;
-        height: 550px;
+        width: 310px;
+        height: 300px;
+        object-fit: cover;
     }
 
     .accommodationPic1 img {
-        width: 600px;
-        height: 550px;
+        width: 310px;
+        height: 300px;
         object-fit: cover;
     }
 
@@ -3233,9 +3246,14 @@ iframe {
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
-        opacity: 2;
+        opacity: 1.5;
         align-content: center;
+        justify-content: center;
         text-align: center;
+        text-align: center;
+        padding: 50px;
+        margin-top: 100px;
+        overflow: hidden;
     }
 
     .specialOffersPage {
