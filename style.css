@@ -82,7 +82,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    height: 100px;
+    height: 115px;
     position: relative;
     padding: 25px;
     background-color: white;
@@ -96,9 +96,9 @@ nav ul {
 }
 
 nav img {
-    width: 350px;
-    height: 75px;
-    object-fit: cover;
+    width: 250px;
+    height: 80px;
+    
 }
 
 nav ul li {
@@ -177,7 +177,7 @@ nav button:hover {
     align-content: center;
     text-align: center;
     width: 100%;
-    margin-top: 150px;
+    margin-top: 165px;
 }
 
 .heroAccommodation h4,
@@ -674,7 +674,7 @@ iframe {
     opacity: 1.5;
     align-content: center;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 165px;
 }
 
 .accommodationOffers {
@@ -762,7 +762,7 @@ iframe {
     opacity: 2;
     align-content: center;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 165px;
 }
 
 .specialOffersPage {
@@ -987,7 +987,7 @@ iframe {
 }
 
 .heroContactPage {
-    margin-top: 150px;
+    margin-top: 165px;
     position: relative;
     height: 50vh;
     background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
@@ -1343,7 +1343,7 @@ iframe {
 
 .heroTermsAndConditons {
     position: relative;
-    margin-top: 150px;
+    margin-top: 165px;
     height: 50vh;
     background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
 	background-repeat: no-repeat;
@@ -1355,7 +1355,7 @@ iframe {
 .heroPrivacyPolicy {
     position: relative;
     height: 50vh;
-    margin-top: 150px;
+    margin-top: 165px;
     background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -3964,7 +3964,7 @@ iframe {
         text-align: center;
         width: 100%;
         overflow: hidden;
-        margin-top: 100px;
+        margin-top: 165px;
     }
 
     .heroAccommodation h4,

@@ -20,3 +20,12 @@ closeMenu.addEventListener("click", function() {
 // goToNextSectionHome()
 // goToNextSectionAccommodation()
 // goToNextSectionGroupBookings()
+
+// Book Tour Redirect
+function bookTourFunction() {
+    location.replace("https://www.explorertours.com");
+}
+// Find Us Redirect
+function findUsFunction() {
+    location.replace("https://maps.app.goo.gl/LMtN9ryRynKNCr7K8");
+}
