@@ -82,7 +82,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    height: 115px;
+    height: 110px;
     position: relative;
     padding: 25px;
     background-color: white;
@@ -97,7 +97,7 @@ nav ul {
 
 nav img {
     width: 250px;
-    height: 80px;
+    height: 65px;
     
 }
 
@@ -177,7 +177,7 @@ nav button:hover {
     align-content: center;
     text-align: center;
     width: 100%;
-    margin-top: 165px;
+    margin-top: 160px;
 }
 
 .heroAccommodation h4,
@@ -674,7 +674,7 @@ iframe {
     opacity: 1.5;
     align-content: center;
     text-align: center;
-    margin-top: 165px;
+    margin-top: 160px;
 }
 
 .accommodationOffers {
@@ -762,7 +762,7 @@ iframe {
     opacity: 2;
     align-content: center;
     text-align: center;
-    margin-top: 165px;
+    margin-top: 160px;
 }
 
 .specialOffersPage {
@@ -987,7 +987,7 @@ iframe {
 }
 
 .heroContactPage {
-    margin-top: 165px;
+    margin-top: 160px;
     position: relative;
     height: 50vh;
     background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
@@ -1343,7 +1343,7 @@ iframe {
 
 .heroTermsAndConditons {
     position: relative;
-    margin-top: 165px;
+    margin-top: 160px;
     height: 50vh;
     background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
 	background-repeat: no-repeat;
@@ -1355,7 +1355,7 @@ iframe {
 .heroPrivacyPolicy {
     position: relative;
     height: 50vh;
-    margin-top: 165px;
+    margin-top: 160px;
     background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
@@ -2665,8 +2665,8 @@ iframe {
     }
 
     .mobileMenu .mobileMenuLogo {
-        width: 250px;
-        height: 70px;
+        width: 200px;
+        height: 77.5px;
         object-fit: cover;
     }
 
@@ -3946,9 +3946,8 @@ iframe {
     }
 
     .mobileMenu .mobileMenuLogo {
-        width: 250px;
-        height: 70px;
-        object-fit: cover;
+        width: 200px;
+        height: 77.5px;
     }
 
     .heroWelcome {
@@ -3964,7 +3963,7 @@ iframe {
         text-align: center;
         width: 100%;
         overflow: hidden;
-        margin-top: 165px;
+        margin-top: 100px;
     }
 
     .heroAccommodation h4,
@@ -4463,14 +4462,14 @@ iframe {
     }
 
     .accommodationInfo img {
-        width: 350px;
+        width: 330px;
         height: 300px;
         object-fit: cover;
     }
 
     .accommodationInfodescription {
         border: 1px solid black;
-        width: 350px;
+        width: 330px;
         height: 125px;
         margin: 10px 0px 10px;
         padding: 20px;
@@ -4488,13 +4487,13 @@ iframe {
     }
 
     .accommodationPic img {
-        width: 350px;
+        width: 330px;
         height: 300px;
         object-fit: cover;
     }
 
     .accommodationPic1 img {
-        width: 350px;
+        width: 330px;
         height: 300px;
         object-fit: cover;
     }
@@ -4769,6 +4768,7 @@ iframe {
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
+        margin-top: 100px;
     }
 
     .bookOptionsContainer {
@@ -5122,6 +5122,7 @@ iframe {
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
+        margin-top: 100px;
     }
 
     .heroPrivacyPolicy {
@@ -5132,6 +5133,7 @@ iframe {
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
+        margin-top: 100px;
     }
 
     .termsAndConditons p,

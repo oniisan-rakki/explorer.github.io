@@ -23,7 +23,7 @@
                 </div>
             </div>
             <nav>
-                <a href="index.html"><img src="logo.svg" alt=""></a>
+                <a href="index.html"><img src="logo.svg" alt="Explorer Backpackers Logo - Explorer Backpackers - Johannesburg Backpackers"></a>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="accommodation.html">Accommodation</a></li>
@@ -36,7 +36,7 @@
             </nav>
         </header>
         <div class="mobileMenu">
-            <a href="index.html"><img src="" alt="" class="mobileMenuLogo"></a>
+            <a href="index.html"><img src="logo.svg" alt="Explorer Backpackers Logo - Explorer Backpackers - Johannesburg Backpackers" class="mobileMenuLogo"></a>
             <button id="hamburger"><img src="menu.svg" alt=""></button>
             <button id="close" class="close-btn"><img src="close.svg" alt=""></button>
         </div>
@@ -64,56 +64,58 @@
                         <h2>Group Bookings</h2>
                         <p>Fill out this quick form, receive an invoice once you have completed the form and <br>we will be in touch to confirm your booking with us.</p>
                         <div class="groupBookingsBox">
-                            <form>
+                            <form action="" method="post">
                                 <div class="groupBookingsRow50">
                                     <div class="groupBookingsInputBox">
                                         <span>First Name</span>
-                                        <input type="text" required placeholder="e.g. Kat">
+                                        <input type="text" required placeholder="e.g. Kat" id="first_name" name="first_name" autocomplete="on">
                                     </div>
                                     <div class="groupBookingsInputBox">
                                         <span>Last Name</span>
-                                        <input type="text" required placeholder="e.g. Jones">
+                                        <input type="text" required placeholder="e.g. Jones" id="last_name" name="last_name" autocomplete="on">
                                     </div>
                                 </div>
                                 <div class="groupBookingsRow100">
                                     <div class="groupBookingsInputBox">
                                         <span>Email</span>
-                                        <input type="email" required placeholder="e.g. example@email.com">
+                                        <input type="email" required placeholder="e.g. example@email.com" id="email" name="email" autocomplete="on">
                                     </div>
                                 </div>
                                 <div class="groupBookingsRow50">
                                     <div class="groupBookingsInputBox">
                                         <span>Check In</span>
-                                        <input type="date" required>
+                                        <input type="date" required id="check_in" name="check_in">
                                     </div>
                                     <div class="groupBookingsInputBox">
                                         <span>Check Out</span>
-                                        <input type="date" required>
+                                        <input type="date" required id="check_out" name="check_out">
                                     </div>
                                 </div>
                                 <div class="groupBookingsRow100">
                                     <div class="groupBookingsInputBox">
                                         <span>Number of People</span>
-                                        <input type="number" required placeholder="e.g. 10">
+                                        <input type="number" required placeholder="e.g. 10" id="number_of_people" min="1" max="35" name="number_of_people">
                                     </div>
                                 </div>
                                 <div class="groupBookingsRow100">
                                     <div class="groupBookingsInputBox">
                                         <span>Breakfast (Optional)</span>
                                         <div class="radioOptions">
-                                            <label><input type="radio"> Yes</label>
-                                            <label><input type="radio"> No</label>
+                                            <input type="radio" id="breakfast_yes" name="breakfast" value="yes">
+                                            <label for="breakfast_yes">Yes</label>
+                                            <input type="radio" id="breakfast_no" name="breakfast" value="no">
+                                            <label for="breakfast_no">No</label>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="groupBookingsRow100">
                                     <div class="groupBookingsInputBox">
                                         <span>Message or Special Request</span>
-                                        <textarea placeholder="Type ypur meassge here"></textarea>
+                                        <textarea placeholder="Type your meassge here" id="special_request" name="special_request"></textarea>
                                     </div>
                                 </div>
                                 <div class="groupBookingsRow100">
-                                    <label><input type="checkbox"> By clicking this you agree to Explorer Backpackers Privacy Policy, that this is not an agreement between Explorer Backpackers and you, and communication via email.</label>
+                                    <label for="acceptance"><input type="checkbox" required id="acceptance" name="acceptance" value="yes"> By clicking this you agree to Explorer Backpackers Privacy Policy, that this is not an agreement between Explorer Backpackers and you, and communication via email.</label>
                                 </div>
                                 <div class="groupBookingsRow80">
                                     <input type="submit" value="Submit" class="submit-button">
@@ -138,10 +140,10 @@
                 <div class="infoBlock">
                     <h3>Get Social</h3>
                     <div class="socialIcons">
-                        <button><img src="instagram.svg" alt=""></button>
-                        <button><img src="facebook.svg" alt=""></button>
-                        <button><img src="twitter.svg" alt=""></button>
-                        <button><img src="tiktok.svg" alt=""></button>
+                        <button><img src="instagram.svg" alt="Our Instagram - Explorer Backpackers"></button>
+                        <button><img src="facebook.svg" alt="Our Facebook - Explorer Backpackers"></button>
+                        <button><img src="twitter.svg" alt="Our Twitter - Explorer Backpackers"></button>
+                        <button><img src="tiktok.svg" alt="Our TikTok - Explorer Backpackers"></button>
                     </div>
                     <button>Tag us in your photos!</button>
                 </div>

@@ -6,11 +6,13 @@
 let openMenu = document.getElementById("hamburger");
 let closeMenu = document.getElementById("close");
 let mobileMenu = document.getElementById("mobileMenu");
+
 openMenu.addEventListener("click", function() {
     openMenu.style.display = "none";
     closeMenu.style.display = "grid";
     mobileMenu.style.display = "grid";
 });
+
 closeMenu.addEventListener("click", function() {
     openMenu.style.display = "grid";
     closeMenu.style.display = "none";
@@ -29,3 +31,5 @@ function bookTourFunction() {
 function findUsFunction() {
     location.replace("https://maps.app.goo.gl/LMtN9ryRynKNCr7K8");
 }
+
+// Set date to today
