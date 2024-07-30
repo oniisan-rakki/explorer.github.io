@@ -1383,1213 +1383,6 @@ iframe {
     margin-top: 30px;
 }
 
-@media only screen and (min-width: 200px) and (max-width: 300px) {
-    header {
-        display: none;
-    }
-
-    .mobileMenu {
-        display: flex;
-        height: 100px;
-        width: 100%;
-        padding: 20px;
-        justify-content: space-between;
-        align-items: center;
-        align-content: center;
-    }
-
-    .mobileMenu button {
-        background-color: transparent;
-        border: none;
-    }
-
-    .mobileMenu .mobileMenuLogo {
-        width: 250px;
-        height: 70px;
-        object-fit: cover;
-    }
-
-    .heroWelcome {
-        position: relative;
-        height: calc(100vh - 150px);
-        background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-        opacity: 1.5;
-        align-content: center;
-        text-align: center;
-        width: 100%;
-        overflow: hidden;
-    }
-
-    .heroGroupBookings h4,
-    .heroSpecial h4,
-    .heroWelcome h4 {
-        text-transform: uppercase;
-        letter-spacing: 5px;
-        font-size: 13px;
-        font-weight: 600;
-        color: white;
-    }
-
-    .heroGroupBookings h1,
-    .heroSpecial h1,
-    .heroWelcome h1 {
-        margin-top: 15px;
-        font-size: 36px;
-        font-weight: 800;
-        letter-spacing: 5px;
-        color: white;
-    }
-
-    .heroGroupBookings h2,
-    .heroSpecial h2,
-    .heroWelcome h2 {
-        text-transform: uppercase;
-        font-size: 18px;
-        font-weight: 700;
-        margin-top: 22.5px;
-        color: white;
-        letter-spacing: 10px;
-    }
-
-    .heroGroupBookings button,
-    .heroSpecial button,
-    .heroWelcome button {
-        padding: 15px 50px;
-        margin-top: 45px;
-        background-color: white;
-        cursor: pointer;
-        border-radius: 10px;
-        border: none;
-        text-transform: uppercase;
-        letter-spacing: 5px;
-        font-size: 8.5px;
-        font-weight: 600;
-    }
-
-    .welcome {
-        height: 100vh;
-        width: 100%;
-        position: relative;
-        padding: 40px 40px 0px;
-        align-items: center;
-    }
-
-    .welcomeContainer {
-        display: flex;
-        width: 100%;
-        flex-wrap: wrap;
-        gap: 50px;
-    }
-
-    .welcomeText {
-        flex: 1;
-        width: 100%;
-        align-items: center;
-        align-content: center;
-        text-align: left;
-    }
-
-    .welcome-image {
-        flex: 1;
-        width: 100%;
-        align-items: center;
-        align-content: center;
-        text-align: right;
-    }
-
-    .welcome-image img {
-        width: 330px;
-        height: 450px;
-        object-fit: cover;
-    }
-
-    h2 {
-        font-size: 28px;
-        line-height: 1.5;
-        margin-bottom: 25px;
-        font-weight: 600;
-    }
-
-    .contactContent a,
-    .contactPageContent p,  
-    .welcomeText p {
-        font-size: 15px;
-        font-weight: 300;
-        color: black;
-        line-height: 2;
-    }
-
-    .tours {
-        height: 100vh;
-        align-items: center;
-        width: 100%;
-        text-align: center;
-        overflow: hidden;
-        padding: 30px 30px 10px;
-    }
-    
-    .promosOffers,
-    .accommodation {
-        height: 85vh;
-        padding: 50px 40px 40px;
-        align-items: center;
-        width: 100%;
-        text-align: center;
-        overflow: hidden;
-    }
-
-    .toursContainer {
-        position: relative;
-        height: 100%;
-        width: 100%;
-        background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-        opacity: 1.5;
-        border-radius: 15px;
-    }
-
-    .toursContainertext {
-        position: absolute;
-        height: 75%;
-        width: 80%;
-        background-color: white;
-        right: 10%;
-        top: 12.5%;
-        border-radius: 15px;
-        text-align: left;
-        padding: 30px 30px;
-    }
-
-    .toursContainertext button {
-        position: absolute;
-        bottom: 45px;
-        width: calc(100% - 57.5px);
-        padding: 15px;
-        border: none;
-        text-transform: uppercase;
-        font-size: 10.5px;
-        font-weight: 600;
-        cursor: pointer;
-        color: white;
-        background-color: black;
-        border-radius: 5px;
-    }
-
-    .offers img,
-    .promos img,
-    .ourRoom img {
-        object-fit: cover;
-        width: 330px;
-        height: 300px;
-        
-    }
-
-    .descriptionOffers,
-    .promoDescription,
-    .ourRoomdescription {
-        border: 1px solid black;
-        width: 330px;
-        height: 275px;
-        margin-top: 10px;
-        padding: 27.5px 30px;
-        position: relative;
-        text-align: left;
-    }
-
-    .accommodationInfo button,
-    .ourRoomdescription button {
-        width: 100%;
-        padding: 15px;
-        border: none;
-        text-transform: uppercase;
-        font-size: 10.5px;
-        font-weight: 600;
-        cursor: pointer;
-        color: white;
-        background-color: black;
-        border-radius: 5px;
-        bottom: 0px;
-    }
-
-    .descriptionOffers p,
-    .toursContainertext p,
-    .promoDescription p {
-        font-size: 15px;
-        font-weight: 300;
-        color: black;
-    }
-
-    .descriptionOffers button,
-    .promoDescription button {
-        width: 270px;
-        padding: 15px;
-        border: none;
-        text-transform: uppercase;
-        font-size: 10.5px;
-        font-weight: 600;
-        cursor: pointer;
-        color: white;
-        background-color: black;
-        border-radius: 5px;
-        bottom: 27.5px;
-        position: absolute;
-        left: 30px;
-    }
-
-    .testimonials {
-        position: relative;
-        height: 100vh;
-        background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-        opacity: 3;
-        align-content: center;
-        text-align: center;
-        width: 100%;
-        overflow: hidden;
-        padding: 50px;
-        color: white;
-    }
-
-    .testimonials {
-        position: relative;
-        height: 100vh;
-        background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-        opacity: 3;
-        align-content: center;
-        text-align: center;
-        width: 100%;
-        overflow: hidden;
-        padding: 75px;
-        color: white;
-    }
-    
-    .testimonial img {
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        top: 70px;
-        left: 30px;
-    }
-    
-    .testimonial p {
-        position: absolute;
-        width: 85%;
-        left: 30px;
-        top: 155px;
-        font-size: 16px;
-        color: white;
-        font-weight: 300;
-    }
-    
-    .testimonial h4 {
-        position: absolute;
-        left: 30px;
-        bottom: 70px;
-        font-size: 16px;
-        font-weight: 700;
-        color: white;
-        letter-spacing: 2px;
-    }
-    
-    .testimonial button{
-        height: 450px;
-        width: 420px;
-        margin-top: 30px;
-        border: none;
-        background-color: transparent;
-        text-align: left;
-        position: relative;
-    }
-
-
-    footer {
-        height: 155vh;
-        position: relative;
-        width: 100%;
-        background-color: black;
-        padding: 30px 30px 100px;
-        color: white;
-    }
-
-    footer h2 {
-        position: absolute;
-        top: 50px;
-        text-transform: capitalize;
-        font-size: 25px;
-        left: 30px;
-        text-align: left;
-    }
-
-    footer h3 {
-        font-size: 20px;
-        font-weight: 600;
-        margin-bottom: 20px;
-        letter-spacing: 2px;
-    }
-
-    footer a {  
-        color: white;
-        font-weight: 300;
-        font-size: 13.75px;
-        line-height: 1.75;
-    }
-
-    .checkOutInputBox a {
-        color: #000000;
-    }
-
-    .checkOutInputBox a:hover,
-    .reservationDetailsContainer form a:hover,
-    footer a:hover {
-        color: green;
-    }
-
-    footer p {
-        font-size: 13.75px;
-        line-height: 1.75;
-        margin-bottom: 3.5px;
-        font-weight: 300;
-    }
-
-    .footerContainer {
-        display: inline-flex;
-        flex-wrap: wrap;
-    }
-
-    .infoBlock {
-        text-align: left;
-        width: 100%;
-        height: 300px;
-        color: white; 
-        border: 0.75px solid white;
-        padding: 35px;
-        border-radius: 5px;
-    }
-
-    .infoBlock button {
-        width: 100%;
-        padding: 15px;
-        border: none;
-        text-transform: uppercase;
-        font-size: 12.5px;
-        font-weight: 600;
-        cursor: pointer;
-        color: black;
-        background-color: white;
-        border-radius: 5px;
-    }
-
-    iframe {
-        width: 285px;
-        height: 180px;
-        border-radius: 5px;
-    }
-
-    .socialIcons {
-        margin-top: 15px;
-        display: inline-flex;
-        gap: 20px;
-        margin-bottom: 30px;
-    }
-
-    .socialIcons button {
-        width: 55px;
-        height: 55px;
-        border-radius: 50%;
-        background-color: white;
-        border: none;
-        cursor: pointer;   
-    }
-
-    .socialIcons img {
-        width: 26px;
-        height: 26px;
-        align-items: center;
-        text-align: center;
-        align-content: center;
-    }
-
-    .showOffers {
-        position: fixed;
-    }
-
-    .chatBot {
-        position: fixed;
-    }
-
-    .eXperiences {
-        position: fixed;
-    }
-
-    .bottomBarContainer {
-        height: 175px;
-        position: absolute;
-        bottom: 0px;
-        z-index: 3;
-        background-color: white;
-        width: 100%;
-        left: 0px;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        align-content: center;
-        justify-content: space-between;
-    }
-
-    .bottomBar p {
-        color: black;
-        font-size: 11.5px;
-        margin-top: 5px;
-        font-weight: 300;
-    }
-
-    .bottomBar ul {
-        margin-top: 20px;
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .bottomBar ul li a {
-        color: black;
-        font-size: 11.5px;
-    }
-
-    .bottomBar ul li a:hover {
-        color: green;
-    }
-
-    .heroAccommodation {
-        position: relative;
-        height: calc(100vh - 150px);
-        background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-        opacity: 1.5;
-        align-content: center;
-        text-align: center;
-    }
-
-    .accommodationOffers {
-        padding: 0px 75px 75px;
-        width: 100%;
-        text-align: left;
-    }
-
-    .accommodationOfferscontainer {
-        margin-top: 75px;
-        display: inline-flex;
-        width: 100%;
-        flex-direction: row;
-        text-align: left;
-        gap: 50px;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .accommodationInfo {
-        width: 600px;
-    }
-
-    .accommodationInfo img {
-        width: 600px;
-        height: 550px;
-        object-fit: cover;
-    }
-
-    .accommodationInfodescription {
-        border: 1px solid black;
-        width: 600px;
-        height: 100px;
-        margin: 10px 0px 10px;
-        padding: 20px;
-    }
-
-    .accommodationOfferscontainer2 {
-        display: inline-flex;
-        width: 100%;
-        flex-direction: row;
-        text-align: left;
-        gap: 50px;
-        justify-content: space-between;
-        margin-top: 75px;
-    }
-
-    .accommodationPic img {
-        width: 600px;
-        height: 550px;
-    }
-
-    .accommodationPic1 img {
-        width: 600px;
-        height: 550px;
-        object-fit: cover;
-    }
-
-    .accommodationInfo p {
-        line-height: 2.25;
-        margin-bottom: 50px;
-    }
-
-    .accommodationInfo h2 {
-        margin-bottom: 50px;
-        margin-top: 30px;
-    }
-
-    .accommodationInfodescription p {
-        letter-spacing: 2px;
-        font-size: 12.5px;
-        font-weight: 500;
-        color: black;
-        line-height: 2.25;
-    }
-
-    .heroSpecial {
-        position: relative;
-        height: calc(100vh - 150px);
-        background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-        opacity: 2;
-        align-content: center;
-        text-align: center;
-    }
-
-    .specialOffersPage {
-        padding: 50px 50px 75px;
-        width: 100%;
-        text-align: center;
-    }
-
-    .specialOfferspageContainer {
-        display: inline-flex;
-        gap: 40px;
-        flex-wrap: wrap;
-        text-align: center;
-        align-items: center;
-        align-content: center;
-        margin-top: 30px;
-        justify-content: center;
-    }
-
-    .heroGroupBookings {
-        position: relative;
-        height: calc(100vh - 150px);
-        background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-        opacity: 2;
-        align-content: center;
-        text-align: center;
-    }
-
-    .groupBookingsPage {
-        padding: 75px;
-        width: 100%;
-        text-align: center;
-    }
-
-    .groupBookingsFormContainer {
-        position: relative;
-        width: 100%;
-    }
-
-    .groupBookingsFormContainer h2 {
-        text-align: center;
-        margin-bottom: 15px;
-    }
-
-    .groupBookingsFormContainer p {
-        text-align: center;
-        margin-bottom: 60px;
-    }
-
-    .groupBookingsBox {
-        position: relative;
-        width: 100%;
-        text-align: center;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-
-    .checkOutFormBox span,
-    .contactPageBox span,
-    .groupBookingsBox span {
-        font-size: 11.5px;
-        font-weight: 500;
-        letter-spacing: 1.5px;
-        margin-bottom: 17.5px;
-        line-height: 15px;
-        text-align: left;
-        color: black;
-    }
-
-    .checkOutFormBox .checkOutFormRow100,
-    .contactPageBox .contactPageRow100,
-    .groupBookingsBox .groupBookingsRow100 {
-        text-align: left;
-    }
-
-    .checkOutFormBox .checkOutFormRow50,
-    .contactPageBox .contactPageRow50,
-    .groupBookingsBox .groupBookingsRow50{
-        display: flex;
-        gap: 40px;
-    }
-
-    .checkOutFormBox .checkOutFormRow50 .checkOutInputBox,
-    .contactPageBox .contactPageRow50 .contactPageInputBox,
-    .groupBookingsBox .groupBookingsRow50 .groupBookingsInputBox {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 25px;
-        width: 50%;
-    }
-
-    .checkOutFormBox .checkOutFormRow100 .checkOutInputBox,
-    .contactPageBox .contactPageRow100 .contactPageInputBox,
-    .groupBookingsBox .groupBookingsRow100 .groupBookingsInputBox {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 27.5px;
-        width: 100%;
-    }
-
-    .groupBookingsBox .groupBookingsRow100 .groupBookingsInputBox label {
-        font-size: 10.5px;
-        font-weight: 300;
-        letter-spacing: 1.55px;
-        margin-bottom: 7.5px;
-        color: #000000;
-    }
-
-    .checkOutFormBox select,
-    .checkOutFormBox input,
-    .contactPageBox input,
-    .groupBookingsBox input {
-        padding: 15px;
-        font-size: 14.5px;
-        outline: none;
-        border: 0.75px solid #272727;
-        border-radius: 5px;
-        margin-bottom: 5px;
-        color: #000000;
-        font-weight: 400;
-        background-color: #efeeee95;
-    }
-
-    .checkOutFormBox .checkOutFormRow100 textarea,
-    .contactPageBox .contactPageRow100 textarea,
-    .groupBookingsBox .groupBookingsRow100 textarea {
-        padding: 13.5px;
-        height: 150px;
-        outline: none;
-        border: 0.75px solid #272727;
-        border-radius: 5px;
-        resize: none;
-        margin-bottom: 10px;
-        font-size: 14.5px;
-        background-color: #efeeee95;
-    }
-
-    .checkOutFormBox .submit-button,
-    .contactPageBox .submit-button,
-    .groupBookingsBox .submit-button {
-        background-color: #000000;
-        color: white;
-        border: none;
-        font-size: 12.5px;
-        font-weight: 600;
-        cursor: pointer;
-        padding: 20px;
-        text-transform: uppercase;
-        letter-spacing: 3.5px;
-        border-radius: 5px;
-        margin-top: 50px;
-    }
-
-    .checkOutFormBox .checkOutFormRow60 input,
-    .contactPageBox .contactPageRow60 input,
-    .groupBookingsBox .groupBookingsRow80 input {
-        width: 100%;  
-    }
-
-    .radioOptions {
-        display: flex;
-        gap: 30px;
-        margin-top: 10px;
-        align-items: center;
-    }
-
-    .contactPage {
-        position: relative;
-        width: 100%;
-        padding: 75px;
-    }
-
-    .contactPageContainer {
-        display: flex;
-        margin-bottom: 75px;
-        gap: 50px;
-    }
-
-    .contactPageContent {
-        flex: 1;
-        width: 50%;
-    }
-
-    .contactContent div {
-        display: flex;
-        gap: 40px;
-        margin-top: 40px;
-        align-items: center;
-        width: 100%;
-    }
-
-    .contactContent div button {
-        border-radius: 50%;
-        background-color: #000000;
-        width: 65px;
-        height: 65px;
-        border: none;
-        cursor: pointer;
-    }
-
-    .contactContent div img {
-        width: 32px;
-        height: 32px;
-    }
-
-    .contactPageForm {
-        flex: 1;
-        width: 50%;
-        padding: 55px 0px 50px 0px;
-    }
-
-    .contactPage iframe {
-        width: 100%;
-        height: 500px;
-        border-radius: 30px;
-        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-    }
-
-    .heroContactPage {
-        position: relative;
-        height: 50vh;
-        background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
-    .bookOptionsContainer {
-        display: flex;
-        gap: 30px;
-        position: relative;
-    }
-
-    .bookOptions {
-        padding: 75px 50px 25px;
-        background-color: #c3c3c318;
-        width: 100%; /*change to 80%*/
-        position: relative;
-    }
-
-    .reservationDetails {
-        top: 0px;
-        width: 0%; /*change to 20%*/
-        padding: 100px 20px;
-        height: 100vh;
-        position: relative;
-        display: none;
-    }
-
-    .reservationDetailsContainer {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    }
-
-    .reservationDetails h3 {
-        margin-bottom: 35px;
-        font-size: 23px;
-        font-weight: 600px;
-    }
-
-    .reservationDetails h4 {
-        font-size: 16px;
-        margin-bottom: 25px;
-    }
-
-    .reservationDetailsContainer form input{
-        margin-right: 10px;
-        align-items: center;
-    }
-
-    .reservationDetailsContainer form label {
-        font-size: 12.5px;
-        color: black;
-        
-    }
-
-    .reservationDetailsContainer form a {
-        color: #000000;
-        text-decoration: underline;
-    }
-
-    .reservationDetails button {
-        width: calc(100% - 20px);
-        padding: 10px;
-        border: none;
-        text-transform: uppercase;
-        font-size: 12px;
-        font-weight: 600;
-        cursor: pointer;
-        color: white;
-        background-color: black;
-        border-radius: 5px;
-        margin-top: 35px;
-    }
-
-    .bookOption {
-        background-color: white;
-        border-radius: 60px;
-        margin-bottom: 65px;
-    }
-
-    .roomSlideDescription {
-        display: flex;
-        width: 100%;
-        gap: 30px;
-    }
-
-    .roomSlideShow {
-        flex: 1;
-        width: 50%;
-        position: relative;
-        border-top-left-radius: 30px;
-    }
-
-    .roomSlideShow button {
-        position: absolute;
-    }
-
-    .mySlides {
-        display: none;
-    }
-
-    .roomSlideShow img {
-        width: 100%;
-        height: 400px;
-        object-fit: cover;
-        border-top-left-radius: 30px;
-    }
-
-    .bookOptionsDescription {
-        flex: 1;
-        width: 50%;
-        padding: 50px;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-    }
-
-    .bookOptionsDescription p {
-        font-size: 16px;
-        font-weight: 300;
-        color: black;
-        line-height: 1.85;
-    }
-
-    .roomOptionPriceSelection {
-        border-bottom-left-radius: 30px;
-        border-bottom-right-radius: 30px;
-    }
-
-    .roomOptionPriceSelection .roomOptionPriceSelectionRow100 {
-            padding: 20px 50px;
-            font-size: 14.5px;
-            outline: none;
-            border: none;
-            border-bottom: 1.5px solid #eeeeee;
-            margin-bottom: 5px;
-            color: #000000;
-            font-weight: 400;
-    }
-
-    .roomOptionPriceSelection .roomOptionPriceSelectionRow100:last-child {
-        border-bottom-left-radius: 60px;
-        border-bottom-right-radius: 60px;
-    }
-
-    .roomOptionPriceSelection .roomOptionPriceSelectionRow100 input {
-        margin-right: 30px;
-    }
-
-    .roomSlideShow button img {
-        display: none;
-    }
-
-    .bookNowHeader {
-        height: 300px;
-        padding: 20px;
-        position: relative;
-        text-align: center;
-    }
-
-    .checkoutHeader .logo,
-    .bookNowHeader .logo {
-        width: 350px;
-        height: 75px;
-        margin-top: 25px;
-    }
-
-    .checkoutHeader .backButton,
-    .bookNowHeader button {
-        position: absolute;
-        left: 50px;
-        background-color: transparent;
-        border: none;
-        top: 70px;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-        height: 40px;
-        cursor: pointer;
-        text-align: center;
-    }
-
-    .bookNowHeader button img {
-        width: 20px;
-        height: 20px;
-        margin-right: 15px;
-    }
-
-    .bookNowForm {
-        width: 100%;
-        position: relative;
-
-    }
-
-    .bookNowBox {
-        width: 100%;
-        position: relative;
-        padding: 50px 25px;
-        
-    }
-
-    .bookNowBox form {
-        display: inline-flex;
-        align-content: center;
-        align-items: center;
-        justify-content: center;
-        gap: 30px;
-        background-color: #efeeee95;
-        width: 100%;
-        border: 2px solid #c3c3c318;
-        border-radius: 60px;
-        height: 75px;
-        padding: 30px;
-    }
-
-    .bookNowBox .bookNow25 {
-        display: flex;
-        width: 50%;
-    }
-
-    .bookNowBox .bookNow25 .bookNowInputBox {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .bookNowBox span {
-        font-size: 11.5px;
-        font-weight: 500;
-        letter-spacing: 1.5px;
-        margin-bottom: 5px;
-        line-height: 15px;
-        text-align: left;
-        color: black;
-        margin-left: 1.5px;
-    }
-
-    .bookNowBox .bookNow25 .bookNowInputBox select {
-        border: none;
-        background-color: transparent;
-    }
-
-    .bookNowBox .bookNow25 .bookNowInputBox .availability-button {
-        background-color: #000000;
-        color: white;
-        border: none;
-        font-size: 10.5px;
-        font-weight: 600;
-        cursor: pointer;
-        padding: 10px 40px;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        border-radius: 60px;
-    }
-
-    .bookNowBox .bookNow25 .bookNowInputBox .discount {
-        border: none;
-        background-color: white;
-        padding: 10px 10px;
-        width: 225px;
-        color: black;
-        font-size: 13.5px;
-        font-weight: 500;
-        border-radius: 60px;
-    }
-
-    .bookNowBox .bookNow25 .bookNowInputBox input {
-        border: none;
-        background-color: transparent;
-    }
-
-    .bookNowFooter {
-        height: 50px;
-        padding: 0px;
-    }
-
-    .checkoutHeader {
-        width: 100%;
-        position: relative;
-        height: 340px;
-        text-align: center;
-        position: relative;
-        padding: 20px 0px 0px;
-    }
-
-    .progressCheckOut {
-        display: flex;
-        width: 100%;
-        position: relative;
-        margin-top: 50px;
-    }
-
-    .progress {
-        width: 50%;
-        position: relative;
-    }
-
-    .progressCheckOut button {
-        height: 100%;
-        width: 100%;
-        padding: 15px;
-        background-color: #eeeeee;
-        border: none;
-        cursor: pointer;
-        text-transform: uppercase;
-        font-size: 12.5px;
-        font-weight: 600;
-        cursor: pointer;
-        color: black;
-        align-items: center;
-        justify-content: center;
-        align-self: center;
-        align-content: center;
-        position: relative;
-        left: 0px;
-    }
-
-    .progressCheckOut .progress .completed {
-        background-color: black;
-        color: white;
-    }
-
-    .reservationDetailsCheck {
-        text-align: left;
-        padding: 25px 50px 50px;
-    }
-
-    .reservationDetailsCheckContainer {
-        display: flex;
-        width: 100%;
-        text-align: left;
-        gap: 50px;
-    }
-
-    .checkOut {
-        padding: 50px;
-        text-align: center;
-    }
-
-    .space {
-        margin-right: 10px;
-    }
-
-    .privacyPolicy,
-    .termsAndConditons {
-        padding: 50px;
-    }
-
-    .heroTermsAndConditons {
-        position: relative;
-        height: 50vh;
-        background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
-    .heroPrivacyPolicy {
-        position: relative;
-        height: 50vh;
-        background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-    }
-
-    .termsAndConditons p,
-    .privacyPolicy p {
-        line-height: 2;
-        margin-bottom: 30px;
-    }
-
-    .privacyPolicy ul li {
-        list-style: disc;
-        margin-bottom: 20px;
-        margin-left: 20px;
-    }
-
-    .privacyPolicy a {
-        color: #000000;
-    }
-
-    .privacyPolicy h3 {
-        margin-top: 30px;
-    }
-    
-}
-
 @media only screen and (min-width: 301px) and (max-width: 400px) {
     header {
         display: none;
@@ -2665,8 +1458,8 @@ iframe {
     }
 
     .mobileMenu .mobileMenuLogo {
-        width: 200px;
-        height: 77.5px;
+        width: 170px;
+        height: 65px;
         object-fit: cover;
     }
 
@@ -2692,7 +1485,7 @@ iframe {
     .heroWelcome h4 {
         text-transform: uppercase;
         letter-spacing: 5px;
-        font-size: 13px;
+        font-size: 11.5px;
         font-weight: 600;
         color: white;
     }
@@ -2702,7 +1495,7 @@ iframe {
     .heroSpecial h1,
     .heroWelcome h1 {
         margin-top: 15px;
-        font-size: 36px;
+        font-size: 28px;
         font-weight: 800;
         letter-spacing: 5px;
         color: white;
@@ -2713,7 +1506,7 @@ iframe {
     .heroSpecial h2,
     .heroWelcome h2 {
         text-transform: uppercase;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 700;
         margin-top: 22.5px;
         color: white;
@@ -2737,7 +1530,7 @@ iframe {
     }
 
     .welcome {
-        height: 100vh;
+        min-height: 120vh;
         width: 100%;
         position: relative;
         padding: 40px 40px 0px;
@@ -2768,8 +1561,8 @@ iframe {
     }
 
     .welcome-image img {
-        width: 310px;
-        height: 450px;
+        width: 280px;
+        height: 350px;
         object-fit: cover;
     }
 
@@ -2790,7 +1583,7 @@ iframe {
     }
 
     .tours {
-        height: 110vh;
+        min-height: 120vh;
         align-items: center;
         width: 100%;
         text-align: center;
@@ -2800,7 +1593,7 @@ iframe {
     
     .promosOffers,
     .accommodation {
-        height: 95vh;
+        min-height: 125vh;
         padding: 50px 40px 40px;
         align-items: center;
         width: 100%;
@@ -2823,11 +1616,11 @@ iframe {
 
     .toursContainertext {
         position: absolute;
-        height: 75%;
+        height: 85%;
         width: 80%;
         background-color: white;
         right: 10%;
-        top: 12.5%;
+        top: 7.5%;
         border-radius: 15px;
         text-align: left;
         padding: 30px 30px;
@@ -2852,7 +1645,7 @@ iframe {
     .promos img,
     .ourRoom img {
         object-fit: cover;
-        width: 310px;
+        width: 265px;
         height: 300px;
         
     }
@@ -2861,8 +1654,8 @@ iframe {
     .promoDescription,
     .ourRoomdescription {
         border: 1px solid black;
-        width: 310px;
-        height: 295px;
+        width: 265px;
+        height: 315px;
         margin-top: 10px;
         padding: 27.5px 30px;
         position: relative;
@@ -2894,7 +1687,7 @@ iframe {
 
     .descriptionOffers button,
     .promoDescription button {
-        width: 270px;
+        width: 200px;
         padding: 15px;
         border: none;
         text-transform: uppercase;
@@ -2947,15 +1740,15 @@ iframe {
         position: absolute;
         width: 50px;
         height: 50px;
-        top: 50px;
+        top: 30px;
         left: 30px;
     }
     
     .testimonial p {
         position: absolute;
-        width: 70%;
+        width: 60%;
         left: 30px;
-        top: 130px;
+        top: 110px;
         font-size: 16px;
         color: white;
         font-weight: 300;
@@ -2964,7 +1757,7 @@ iframe {
     .testimonial h4 {
         position: absolute;
         left: 30px;
-        width: 70%;
+        width: 60%;
         bottom: 30px;
         font-size: 16px;
         font-weight: 700;
@@ -2982,9 +1775,8 @@ iframe {
         position: relative;
     }
 
-
     footer {
-        height: 170vh;
+        min-height: 190vh;
         position: relative;
         width: 100%;
         background-color: black;
@@ -3044,7 +1836,7 @@ iframe {
         height: 300px;
         color: white; 
         border: 0.75px solid white;
-        padding: 35px;
+        padding: 25px;
         border-radius: 5px;
     }
 
@@ -3104,7 +1896,7 @@ iframe {
     }
 
     .bottomBarContainer {
-        height: 200px;
+        height: 220px;
         position: absolute;
         bottom: 0px;
         z-index: 3;
@@ -3184,14 +1976,14 @@ iframe {
     }
 
     .accommodationInfo img {
-        width: 310px;
+        width: 280px;
         height: 300px;
         object-fit: cover;
     }
 
     .accommodationInfodescription {
         border: 1px solid black;
-        width: 310px;
+        width: 280px;
         height: 150px;
         margin: 10px 0px 10px;
         padding: 20px;
@@ -3209,13 +2001,13 @@ iframe {
     }
 
     .accommodationPic img {
-        width: 310px;
+        width: 280px;
         height: 300px;
         object-fit: cover;
     }
 
     .accommodationPic1 img {
-        width: 310px;
+        width: 280px;
         height: 300px;
         object-fit: cover;
     }
