@@ -33,3 +33,8 @@ function findUsFunction() {
 }
 
 // Set date to today
+const today = new Date().toISOString().split('T')[0]; // Get today's date in YYYY-MM-DD format
+document.getElementById("check_in").setAttribute("min", today);
+today.setDate(today.getDate() + 1); // Increment the day by 1 to get tomorrow
+const tomorrow = today.toISOString().split('T')[0];
+document.getElementById("check_out").setAttribute("min", tomorrow);
