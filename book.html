@@ -1,326 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <meta name=“viewport” content="width=device-width, initial-scale=1">
-    <title>Book - Explorer Backpackers - Johannesburg Backpackers Hostel</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="bookNowHeader">
-        <button onclick="history.back()"><img src="back.svg" alt="">Back</button>
-        <a href="index.html"><img src="logo.svg" alt="Explorer Backpackers Logo - Explorer Backpackers - Johannesburg Backpackers" class="logo"></a>
-        <div class="bookNowForm">
-            <div class="bookNowBox">
-                <form>
-                    <div class="bookNow25">
-                        <div class="bookNowInputBox">
-                            <span>Room</span>
-                            <select required>
-                                <option>Choose your room</option>
-                                <option>Female Six Bed Dorm</option>
-                                <option>Female Four Bed Dorm</option>
-                                <option>Mixed Eight Bed Dorm</option>
-                                <option>Mixed Eight Bed Dorm</option>
-                                <option>Private Queen Room</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="bookNow25">
-                        <div class="bookNowInputBox">
-                            <span>Guests</span>
-                            <select>
-                                <option>1 Guest</option>
-                                <option>2 Guests</option>
-                                <option>3 Guests</option>
-                                <option>4 Guests</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="bookNow25">
-                        <div class="bookNowInputBox">
-                            <span>Check-in</span>
-                            <input type="date" required id="book_check_in" name="book_check_in">
-                        </div>
-                    </div>
-                    <div class="bookNow25">
-                        <div class="bookNowInputBox">
-                            <span>Check-out</span>
-                            <input type="date">
-                        </div>
-                    </div>
-                    <div class="bookNow25">
-                        <div class="bookNowInputBox">
-                            <input type="text" placeholder="Discount Code" class="discount">
-                        </div>
-                    </div>
-                    <div class="bookNow25">
-                        <div class="bookNowInputBox">
-                            <input type="submit" value="Show Availability" class="availability-button">
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </header>
-    <section class="bookOptionsPage">
-        <div class="bookOptionsContainer">
-            <div class="bookOptions">
-                <div class="bookOption">
-                    <div class="roomSlideDescription">
-                        <div class="roomSlideShow">
-                            <div class="mySlides">
-                                <img src="" alt="">
-                            </div>
-                            <div class="mySlides">
-                                <img src="" alt="">
-                            </div>
-                            <div class="mySlides">
-                                <img src="" alt="">
-                            </div>
-                            <button class="slidePrev"><img src="" alt=""></button>
-                            <buttin class="slideNext"><img src="" alt=""></buttin>
-                            <div class="currentSlide">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                        </div>
-                        <div class="bookOptionsDescription">
-                            <h4>Female Six Bed Dorm</h4>
-                            <p>Experience Ultimate Comfort in our thoughtfully equipped room. Discover 6 extra-long single bunk beds, lockable storage lockers, a full-length mirror, vanity table, and chair. Convenient plug points throughout ensure easy device charging. Each bed features a reading light for personalized comfort. The en-suite bathroom offers a luxurious bathtub and separate shower for your relaxation.</p>
-                        </div>
-                    </div>
-                    <div class="roomOptionPriceSelection">
-                        <form>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> <!--NumberofGuestJS--> Guest</label>
-                            </div>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> Guest (Student Discount - 10%)</label>
-                            </div>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> Guest (Elderly Discount - 15%)</label>
-                            </div>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> 3 Nights (One Free Night)</label>
-                            </div>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> Guest (Monthly Rate - 40%)</label>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="bookOption">
-                    <div class="roomSlideDescription">
-                        <div class="roomSlideShow">
-                            <div class="mySlides">
-                                <img src="" alt="">
-                            </div>
-                            <div class="mySlides">
-                                <img src="" alt="">
-                            </div>
-                            <div class="mySlides">
-                                <img src="" alt="">
-                            </div>
-                            <button class="slidePrev"><img src="" alt=""></button>
-                            <div class="currentSlide">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                        </div>
-                        <div class="bookOptionsDescription">
-                            <h4>Female Four Bed Dorm</h4>
-                            <p>Your Serene Sanctuary for Solitude. Step into our vibrant dorm, specially designed for quiet moments and privacy. Indulge in the comfort of extra-length single bunk beds, thoughtfully arranged on one side of the room, creating a cozy cocoon just for you. Discover convenience with a full-length mirror, vanity table, chair, and wall plug at your disposal. Feel the Glow of Personalized Comfort.</p>
-                        </div>
-                    </div>
-                    <div class="roomOptionPriceSelection">
-                        <form>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> <!--NumberofGuestJS--> Guest</label>
-                            </div>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> Guest (Student Discount - 10%)</label>
-                            </div>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> Guest (Elderly Discount - 15%)</label>
-                            </div>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> 3 Nights (One Free Night)</label>
-                            </div>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> Guest (Monthly Rate - 40%)</label>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="bookOption">
-                    <div class="roomSlideDescription">
-                        <div class="roomSlideShow">
-                            <div class="mySlides">
-                                <img src="" alt="">
-                            </div>
-                            <div class="mySlides">
-                                <img src="" alt="">
-                            </div>
-                            <div class="mySlides">
-                                <img src="" alt="">
-                            </div>
-                            <button class="slidePrev"><img src="" alt=""></button>
-                            <div class="currentSlide">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                        </div>
-                        <div class="bookOptionsDescription">
-                            <h4>Mixed Eight Bed Dorm</h4>
-                            <p>Boundless Space for All. Our vibrant room welcomes you with 8 extra-length single bunk beds, lockable lockers, full-length mirror, vanity table, and chair. It's not just about comfort; there's even room for a lively game of Twister. Experience ultimate excitement and relaxation in this inviting haven.</p>
-                        </div>
-                    </div>
-                    <div class="roomOptionPriceSelection">
-                        <form>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> <!--NumberofGuestJS--> Guest</label>
-                            </div>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> Guest (Student Discount - 10%)</label>
-                            </div>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> Guest (Elderly Discount - 15%)</label>
-                            </div>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> 3 Nights (One Free Night)</label>
-                            </div>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> Guest (Monthly Rate - 40%)</label>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="bookOption">
-                    <div class="roomSlideDescription">
-                        <div class="roomSlideShow">
-                            <div class="mySlides">
-                                <img src="" alt="">
-                            </div>
-                            <div class="mySlides">
-                                <img src="" alt="">
-                            </div>
-                            <div class="mySlides">
-                                <img src="" alt="">
-                            </div>
-                            <button class="slidePrev"><img src="" alt=""></button>
-                            <div class="currentSlide">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                        </div>
-                        <div class="bookOptionsDescription">
-                            <h4>Mixed Eight Bed Dorm</h4>
-                            <p>Boundless Space for All. Our vibrant room welcomes you with 8 extra-length single bunk beds, lockable lockers, full-length mirror, vanity table, and chair. It's not just about comfort; there's even room for a lively game of Twister. Experience ultimate excitement and relaxation in this inviting haven.</p>
-                        </div>
-                    </div>
-                    <div class="roomOptionPriceSelection">
-                        <form>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> <!--NumberofGuestJS--> Guest</label>
-                            </div>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> Guest (Student Discount - 10%)</label>
-                            </div>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> Guest (Elderly Discount - 15%)</label>
-                            </div>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> 3 Nights (One Free Night)</label>
-                            </div>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> Guest (Monthly Rate - 40%)</label>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="bookOption">
-                    <div class="roomSlideDescription">
-                        <div class="roomSlideShow">
-                            <div class="mySlides">
-                                <img src="" alt="">
-                            </div>
-                            <div class="mySlides">
-                                <img src="" alt="">
-                            </div>
-                            <div class="mySlides">
-                                <img src="" alt="">
-                            </div>
-                            <button class="slidePrev"><img src="" alt=""></button>
-                            <div class="currentSlide">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                        </div>
-                        <div class="bookOptionsDescription">
-                            <h4>Private Queen Room</h4>
-                            <p>Indulge in Modern Luxury in our meticulously designed Queen Room. Sink into the plush comfort of a queen-sized bed, perfect for couples or solo travelers seeking extra space. Stay connected with high-speed Wi-Fi, ideal for streaming, working, or staying in touch with loved ones. The sleek, contemporary décor creates a soothing atmosphere, while the private bathroom with a refreshing shower ensures your utmost convenience.</p>
-                        </div>
-                    </div>
-                    <div class="roomOptionPriceSelection">
-                        <form>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> <!--NumberofGuestJS--> Guest</label>
-                            </div>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> Guest (Student Discount - 10%)</label>
-                            </div>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> Guest (Elderly Discount - 15%)</label>
-                            </div>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> 3 Nights (One Free Night)</label>
-                            </div>
-                            <div class="roomOptionPriceSelectionRow100">
-                                <label><input type="radio"> Guest (Monthly Rate - 40%)</label>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="reservationDetails">
-                <div class="reservationDetailsContainer">
-                    <h3>Your Reservation</h3>
-                    <h4>Room Selections:<br></h4>
-                    <h4>Guests:<br></h4>
-                    <h4>Arrival Date:<br></h4>
-                    <h4>Departure Date:<br></h4>
-                    <h4>Room Nights:<br></h4>
-                    <h4>Total:<br></h4>
-                    <h4>Including VAT:<br></h4>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name=“viewport” content="width=device-width, initial-scale=1"/>
+        <title>Book - Explorer Backpackers - Johannesburg Backpackers Hostel</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="bookNowHeader">
+            <button onclick="history.back()"><img src="back.svg" alt="">Back</button>
+            <a href="index.html"><img src="logo.svg" alt="Explorer Backpackers Logo - Explorer Backpackers - Johannesburg Backpackers" class="logo"></a>
+            <div class="bookNowForm">
+                <div class="bookNowBox">
                     <form>
-                        <label><input type="checkbox">I accept Explorer Backpackers' <a href="">Terms & Conditons</a>.</label>
+                        <div class="bookNow25">
+                            <div class="bookNowInputBox">
+                                <span>Room</span>
+                                <select>
+                                    <option>Choose your room</option>
+                                    <option>Female Six Bed Dorm</option>
+                                    <option>Female Four Bed Dorm</option>
+                                    <option>Mixed Eight Bed Dorm</option>
+                                    <option>Mixed Eight Bed Dorm</option>
+                                    <option>Private Queen Room</option>
+                                    <option>All Options</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="bookNow25">
+                            <div class="bookNowInputBox">
+                                <span>Guests</span>
+                                <select>
+                                    <option>1 Guest</option>
+                                    <option>2 Guests</option>
+                                    <option>3 Guests</option>
+                                    <option>4 Guests</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="bookNow25">
+                            <div class="bookNowInputBox">
+                                <span>Check-in</span>
+                                <input type="date" id="check_in" name="check_in" required>
+                            </div>
+                        </div>
+                        <div class="bookNow25">
+                            <div class="bookNowInputBox">
+                                <span>Check-out</span>
+                                <input type="date" id="check_out" name="check_out" required>
+                            </div>
+                        </div>
+                        <div class="bookNow25">
+                            <div class="bookNowInputBox">
+                                <input type="text" placeholder="Discount Code" class="discount">
+                            </div>
+                        </div>
+                        <div class="bookNow25">
+                            <div class="bookNowInputBox">
+                                <input type="submit" value="Show Availability" class="availability-button">
+                            </div>
+                        </div>
                     </form>
-                    <button>Checkout</button>
                 </div>
             </div>
-        </div>
-    </section>
-    <footer class="bookNowFooter">
-        <div class="bottomBarContainer">
-            <div class="bottomBar">
-                <p>All Rights Reserved © Copyright 2024 Explorer Backpackers</p>
+        </header>
+        <section class="bookOptionsPage">
+            <div class="bookOptionsContainer">
+                <div class="bookOptions">
+                    <div class="bookOption">
+                        <div class="roomSlideDescription">
+                            <div class="roomSlideShow">
+                                <div class="mySlides">
+                                    <img src="" alt="">
+                                </div>
+                                <div class="mySlides">
+                                    <img src="" alt="">
+                                </div>
+                                <div class="mySlides">
+                                    <img src="" alt="">
+                                </div>
+                                <button class="slidePrev"><img src="" alt=""></button>
+                                <buttin class="slideNext"><img src="" alt=""></buttin>
+                                <div class="currentSlide">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="bookOptionsDescription">
+                                <h4>Female Six Bed Dorm</h4>
+                                <p>Experience Ultimate Comfort in our thoughtfully equipped room. Discover 6 extra-long single bunk beds, lockable storage lockers, a full-length mirror, vanity table, and chair. Convenient plug points throughout ensure easy device charging. Each bed features a reading light for personalized comfort. The en-suite bathroom offers a luxurious bathtub and separate shower for your relaxation.</p>
+                            </div>
+                        </div>
+                        <div class="roomOptionPriceSelection">
+                            <form>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> <!--NumberofGuestJS--> Guest</label>
+                                </div>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> Guest (Student Discount - 10%)</label>
+                                </div>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> Guest (Elderly Discount - 15%)</label>
+                                </div>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> 3 Nights (One Free Night)</label>
+                                </div>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> Guest (Monthly Rate - 40%)</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="bookOption">
+                        <div class="roomSlideDescription">
+                            <div class="roomSlideShow">
+                                <div class="mySlides">
+                                    <img src="" alt="">
+                                </div>
+                                <div class="mySlides">
+                                    <img src="" alt="">
+                                </div>
+                                <div class="mySlides">
+                                    <img src="" alt="">
+                                </div>
+                                <button class="slidePrev"><img src="" alt=""></button>
+                                <div class="currentSlide">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="bookOptionsDescription">
+                                <h4>Female Four Bed Dorm</h4>
+                                <p>Your Serene Sanctuary for Solitude. Step into our vibrant dorm, specially designed for quiet moments and privacy. Indulge in the comfort of extra-length single bunk beds, thoughtfully arranged on one side of the room, creating a cozy cocoon just for you. Discover convenience with a full-length mirror, vanity table, chair, and wall plug at your disposal. Feel the Glow of Personalized Comfort.</p>
+                            </div>
+                        </div>
+                        <div class="roomOptionPriceSelection">
+                            <form>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> <!--NumberofGuestJS--> Guest</label>
+                                </div>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> Guest (Student Discount - 10%)</label>
+                                </div>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> Guest (Elderly Discount - 15%)</label>
+                                </div>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> 3 Nights (One Free Night)</label>
+                                </div>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> Guest (Monthly Rate - 40%)</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="bookOption">
+                        <div class="roomSlideDescription">
+                            <div class="roomSlideShow">
+                                <div class="mySlides">
+                                    <img src="" alt="">
+                                </div>
+                                <div class="mySlides">
+                                    <img src="" alt="">
+                                </div>
+                                <div class="mySlides">
+                                    <img src="" alt="">
+                                </div>
+                                <button class="slidePrev"><img src="" alt=""></button>
+                                <div class="currentSlide">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="bookOptionsDescription">
+                                <h4>Mixed Eight Bed Dorm</h4>
+                                <p>Boundless Space for All. Our vibrant room welcomes you with 8 extra-length single bunk beds, lockable lockers, full-length mirror, vanity table, and chair. It's not just about comfort; there's even room for a lively game of Twister. Experience ultimate excitement and relaxation in this inviting haven.</p>
+                            </div>
+                        </div>
+                        <div class="roomOptionPriceSelection">
+                            <form>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> <!--NumberofGuestJS--> Guest</label>
+                                </div>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> Guest (Student Discount - 10%)</label>
+                                </div>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> Guest (Elderly Discount - 15%)</label>
+                                </div>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> 3 Nights (One Free Night)</label>
+                                </div>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> Guest (Monthly Rate - 40%)</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="bookOption">
+                        <div class="roomSlideDescription">
+                            <div class="roomSlideShow">
+                                <div class="mySlides">
+                                    <img src="" alt="">
+                                </div>
+                                <div class="mySlides">
+                                    <img src="" alt="">
+                                </div>
+                                <div class="mySlides">
+                                    <img src="" alt="">
+                                </div>
+                                <button class="slidePrev"><img src="" alt=""></button>
+                                <div class="currentSlide">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="bookOptionsDescription">
+                                <h4>Mixed Eight Bed Dorm</h4>
+                                <p>Boundless Space for All. Our vibrant room welcomes you with 8 extra-length single bunk beds, lockable lockers, full-length mirror, vanity table, and chair. It's not just about comfort; there's even room for a lively game of Twister. Experience ultimate excitement and relaxation in this inviting haven.</p>
+                            </div>
+                        </div>
+                        <div class="roomOptionPriceSelection">
+                            <form>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> <!--NumberofGuestJS--> Guest</label>
+                                </div>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> Guest (Student Discount - 10%)</label>
+                                </div>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> Guest (Elderly Discount - 15%)</label>
+                                </div>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> 3 Nights (One Free Night)</label>
+                                </div>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> Guest (Monthly Rate - 40%)</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="bookOption">
+                        <div class="roomSlideDescription">
+                            <div class="roomSlideShow">
+                                <div class="mySlides">
+                                    <img src="" alt="">
+                                </div>
+                                <div class="mySlides">
+                                    <img src="" alt="">
+                                </div>
+                                <div class="mySlides">
+                                    <img src="" alt="">
+                                </div>
+                                <button class="slidePrev"><img src="" alt=""></button>
+                                <div class="currentSlide">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="bookOptionsDescription">
+                                <h4>Private Queen Room</h4>
+                                <p>Indulge in Modern Luxury in our meticulously designed Queen Room. Sink into the plush comfort of a queen-sized bed, perfect for couples or solo travelers seeking extra space. Stay connected with high-speed Wi-Fi, ideal for streaming, working, or staying in touch with loved ones. The sleek, contemporary décor creates a soothing atmosphere, while the private bathroom with a refreshing shower ensures your utmost convenience.</p>
+                            </div>
+                        </div>
+                        <div class="roomOptionPriceSelection">
+                            <form>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> <!--NumberofGuestJS--> Guest</label>
+                                </div>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> Guest (Student Discount - 10%)</label>
+                                </div>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> Guest (Elderly Discount - 15%)</label>
+                                </div>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> 3 Nights (One Free Night)</label>
+                                </div>
+                                <div class="roomOptionPriceSelectionRow100">
+                                    <label><input type="radio"> Guest (Monthly Rate - 40%)</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="reservationDetails">
+                    <div class="reservationDetailsContainer">
+                        <h3>Your Reservation</h3>
+                        <h4>Room Selections:<br></h4>
+                        <h4>Guests:<br></h4>
+                        <h4>Arrival Date:<br></h4>
+                        <h4>Departure Date:<br></h4>
+                        <h4>Room Nights:<br></h4>
+                        <h4>Total:<br></h4>
+                        <h4>Including VAT:<br></h4>
+                        <form>
+                            <label><input type="checkbox">I accept Explorer Backpackers' <a href="">Terms & Conditons</a>.</label>
+                        </form>
+                        <button>Checkout</button>
+                    </div>
+                </div>
             </div>
-            <div class="bottomBar">
-                <ul>
-                    <li><a href="">Sitemap</a></li>
-                    <li><a href="">Accessibility</a></li>
-                    <li><a href="privacypolicy.html">Privacy Policy</a></li>
-                    <li><a href="termsandconditions.html" class="active">Terms & Conditions</a></li>
-                </ul>
+        </section>
+        <footer class="bookNowFooter">
+            <div class="bottomBarContainer">
+                <div class="bottomBar">
+                    <p>All Rights Reserved © Copyright 2024 Explorer Backpackers</p>
+                </div>
+                <div class="bottomBar">
+                    <ul>
+                        <li><a href="">Sitemap</a></li>
+                        <li><a href="">Accessibility</a></li>
+                        <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                        <li><a href="termsandconditions.html" class="active">Terms & Conditions</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </footer>
-    <script src="main.js" defer></script>
-</body>
+        </footer>
+        <script src="main.js" defer></script>
+    </body>
 </html>

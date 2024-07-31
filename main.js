@@ -1,3 +1,41 @@
+// Set date to today
+document.addEventListener('DOMContentLoaded', () => {
+    const checkInInput = document.getElementById("check_in");
+    const checkOutInput = document.getElementById("check_out");
+
+    // Function to set minimum date for check-out
+    function setMinCheckoutDate() {
+        const checkInValue = checkInInput.value;
+        if (checkInValue) {
+            const checkInDate = new Date(checkInValue);
+            checkInDate.setDate(checkInDate.getDate() + 1); // Add one day
+            const minCheckout = checkInDate.toISOString().split('T')[0];
+            checkOutInput.setAttribute("min", minCheckout);
+
+            // If the check-out is invalid, clear it
+            if (checkOutInput.value && new Date(checkOutInput.value) <= checkInDate) {
+                checkOutInput.value = ''; // Clear invalid check-out
+            }
+        } else {
+            // If check-in is empty, remove check-out restriction
+            checkOutInput.removeAttribute("min");
+        }
+    }
+
+    // Initial setup
+    checkInInput.setAttribute("min", new Date().toISOString().split('T')[0]); 
+    setMinCheckoutDate(); // Set initial minimum for check-out
+
+    // Event listeners for changes
+    checkInInput.addEventListener("change", setMinCheckoutDate);
+    checkOutInput.addEventListener("change", () => {
+        // If check-out is before check-in, reset it
+        if (checkOutInput.value && new Date(checkOutInput.value) <= new Date(checkInInput.value)) {
+            checkOutInput.value = ''; 
+        }
+    });
+});
+
 // showOffers()
 // showExperiences()
 // openChat()
@@ -31,10 +69,3 @@ function bookTourFunction() {
 function findUsFunction() {
     location.replace("https://maps.app.goo.gl/LMtN9ryRynKNCr7K8");
 }
-
-// Set date to today
-const today = new Date().toISOString().split('T')[0]; // Get today's date in YYYY-MM-DD format
-document.getElementById("check_in").setAttribute("min", today);
-today.setDate(today.getDate() + 1); // Increment the day by 1 to get tomorrow
-const tomorrow = today.toISOString().split('T')[0];
-document.getElementById("check_out").setAttribute("min", tomorrow);
