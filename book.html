@@ -16,25 +16,25 @@
                         <div class="bookNow25">
                             <div class="bookNowInputBox">
                                 <span>Room</span>
-                                <select>
-                                    <option>Choose your room</option>
-                                    <option>Female Six Bed Dorm</option>
-                                    <option>Female Four Bed Dorm</option>
-                                    <option>Mixed Eight Bed Dorm</option>
-                                    <option>Mixed Eight Bed Dorm</option>
-                                    <option>Private Queen Room</option>
-                                    <option>All Options</option>
+                                <select name="room_selection" id="room_selection">
+                                    <option selected value="selectedAllOptions">All Rooms</option>
+                                    <option value="selectedfemaleSixBedDomr">Female Six Bed Dorm</option>
+                                    <option value="selectedFemaleFourBedDorm">Female Four Bed Dorm</option>
+                                    <option value="selectedMixedEightBedDorm">Mixed Eight Bed Dorm</option>
+                                    <option value="selectedMixedEightBedDorm">Mixed Eight Bed Dorm</option>
+                                    <option value="selectedPrivateQueenRoom">Private Queen Room</option>
+                                    
                                 </select>
                             </div>
                         </div>
                         <div class="bookNow25">
                             <div class="bookNowInputBox">
                                 <span>Guests</span>
-                                <select>
-                                    <option>1 Guest</option>
-                                    <option>2 Guests</option>
-                                    <option>3 Guests</option>
-                                    <option>4 Guests</option>
+                                <select name="numberOfGuests" id="numberOfGuests">
+                                    <option selected value="oneGuest">1 Guest</option>
+                                    <option value="twoGuest">2 Guests</option>
+                                    <option value="threeGuest">3 Guests</option>
+                                    <option value="fourGuest">4 Guests</option>
                                 </select>
                             </div>
                         </div>
@@ -67,7 +67,7 @@
         <section class="bookOptionsPage">
             <div class="bookOptionsContainer">
                 <div class="bookOptions">
-                    <div class="bookOption">
+                    <div class="bookOption" id="">
                         <div class="roomSlideDescription">
                             <div class="roomSlideShow">
                                 <div class="mySlides">
@@ -95,7 +95,7 @@
                         <div class="roomOptionPriceSelection">
                             <form>
                                 <div class="roomOptionPriceSelectionRow100">
-                                    <label><input type="radio"> <!--NumberofGuestJS--> Guest</label>
+                                    <label><input type="radio"> <!--NumberofGuestJS--> Guest | Check-in: | Check-out:</label>
                                 </div>
                                 <div class="roomOptionPriceSelectionRow100">
                                     <label><input type="radio"> Guest (Student Discount - 10%)</label>
@@ -112,7 +112,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="bookOption">
+                    <div class="bookOption" id="">
                         <div class="roomSlideDescription">
                             <div class="roomSlideShow">
                                 <div class="mySlides">
@@ -156,7 +156,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="bookOption">
+                    <div class="bookOption" id="">
                         <div class="roomSlideDescription">
                             <div class="roomSlideShow">
                                 <div class="mySlides">
@@ -200,7 +200,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="bookOption">
+                    <div class="bookOption" id="">
                         <div class="roomSlideDescription">
                             <div class="roomSlideShow">
                                 <div class="mySlides">
@@ -244,7 +244,7 @@
                             </form>
                         </div>
                     </div>
-                    <div class="bookOption">
+                    <div class="bookOption" id="">
                         <div class="roomSlideDescription">
                             <div class="roomSlideShow">
                                 <div class="mySlides">

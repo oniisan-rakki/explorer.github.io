@@ -1,4 +1,3 @@
-// Set date to today
 document.addEventListener('DOMContentLoaded', () => {
     const checkInInput = document.getElementById("check_in");
     const checkOutInput = document.getElementById("check_out");
@@ -22,9 +21,20 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    // Get today and tomorrow's dates
+    const today = new Date();
+    const tomorrow = new Date();
+    tomorrow.setDate(tomorrow.getDate() + 1);
+
+    // Format dates as YYYY-MM-DD
+    const todayFormatted = today.toISOString().split('T')[0];
+    const tomorrowFormatted = tomorrow.toISOString().split('T')[0];
+
     // Initial setup
-    checkInInput.setAttribute("min", new Date().toISOString().split('T')[0]); 
+    checkInInput.setAttribute("min", todayFormatted); 
+    checkInInput.defaultValue = todayFormatted; // Default check-in to today
     setMinCheckoutDate(); // Set initial minimum for check-out
+    checkOutInput.defaultValue = tomorrowFormatted; // Default check-out to tomorrow
 
     // Event listeners for changes
     checkInInput.addEventListener("change", setMinCheckoutDate);
@@ -34,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
             checkOutInput.value = ''; 
         }
     });
-});
+}); 
 
 // showOffers()
 // showExperiences()
