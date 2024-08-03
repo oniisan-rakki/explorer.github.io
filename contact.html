@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contact - Explorer Backpackers - Johannesburg Backpackers Hostel</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="favicon.svg">
     </head>
     <body>
         <header>
@@ -74,32 +75,34 @@
                 </div>
                 <div class="contactPageForm">
                     <div class="contactPageBox">
-                        <form action="" method="post">
+                        <form method="POST" id="form">
+                            <input type="hidden" name="access_key" value="5a445992-01ad-4adf-8c04-e7ddabad7b6d">
                             <div class="contactPageRow50">
                                 <div class="contactPageInputBox">
                                     <span>First Name</span>
-                                    <input type="text" required placeholder="e.g. Kat" name="first_name" id="first_name" autocomplete="on"> 
+                                    <input type="text" required placeholder="e.g. Kat" name="First Name" id="first_name" autocomplete="on"> 
                                 </div>
                                 <div class="contactPageInputBox">
                                     <span>Last Name</span>
-                                    <input type="text" required placeholder="e.g. Jones" name="last_name" id="last_name" autocomplete="on">
+                                    <input type="text" required placeholder="e.g. Jones" name="Last Name" id="last_name" autocomplete="on">
                                 </div>
                             </div>
                             <div class="contactPageRow100">
                                 <div class="contactPageInputBox">
                                     <span>Email</span>
-                                    <input type="email" required placeholder="e.g. example@email.com" name="email" id="email" autocomplete="on">
+                                    <input type="email" required placeholder="e.g. example@email.com" name="Email" id="email" autocomplete="on">
                                 </div>
                             </div>
                             <div class="contactPageRow100">
                                 <div class="contactPageInputBox">
                                     <span>Message</span>
-                                    <textarea placeholder="Type your message here"></textarea>
+                                    <textarea placeholder="Type your message here" required name="Message" id="message"></textarea>
                                 </div>
                             </div>
                             <div class="contactPageRow60">
                                 <input type="submit" value="Submit" class="submit-button">
                             </div>
+                            <div id="result"></div>
                         </form>
                     </div>
                 </div>

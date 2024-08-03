@@ -4,7 +4,8 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Group Bookings - Explorer Backpackers - Johannesburg Backpackers Hostel</title>
-        <link rel="stylesheet" href="style.css"/>   
+        <link rel="stylesheet" href="style.css"/>  
+        <link rel="icon" href="favicon.svg"> 
     </head>
     <body>
         <header>
@@ -64,56 +65,57 @@
                         <h2>Group Bookings</h2>
                         <p>Fill out this quick form, receive an invoice once you have completed the form and <br>we will be in touch to confirm your booking with us.</p>
                         <div class="groupBookingsBox">
-                            <form action="" method="post">
+                            <form id="form" method="POST">
+                                <input type="hidden" name="access_key" value="5a445992-01ad-4adf-8c04-e7ddabad7b6d">
                                 <div class="groupBookingsRow50">
                                     <div class="groupBookingsInputBox">
                                         <span>First Name</span>
-                                        <input type="text" required placeholder="e.g. Kat" id="first_name" name="first_name" autocomplete="on">
+                                        <input type="text" required placeholder="e.g. Kat" id="first_name" name="First Name" autocomplete="on">
                                     </div>
                                     <div class="groupBookingsInputBox">
                                         <span>Last Name</span>
-                                        <input type="text" required placeholder="e.g. Jones" id="last_name" name="last_name" autocomplete="on">
+                                        <input type="text" required placeholder="e.g. Jones" id="last_name" name="Last Name" autocomplete="on">
                                     </div>
                                 </div>
                                 <div class="groupBookingsRow50">
                                     <div class="groupBookingsInputBox">
                                         <span>Company (Optional)</span>
-                                        <input type="text" placeholder="e.g. Kat's Business" id="company_name" name="company_name" autocomplete="on">
+                                        <input type="text" placeholder="e.g. Kat's Business" id="company_name" name="Company" autocomplete="on">
                                     </div>
                                     <div class="groupBookingsInputBox">
                                         <span>Address (Optional)</span>
-                                        <input type="text" placeholder="e.g. 123 Street Name, Suburb, City, Zip Code, Country" id="address" name="address" autocomplete="on">
+                                        <input type="text" placeholder="e.g. 123 Street Name, Suburb, City, Zip Code, Country" id="address" name="Address" autocomplete="on">
                                     </div>
                                 </div>
                                 <div class="groupBookingsRow100">
                                     <div class="groupBookingsInputBox">
                                         <span>Email</span>
-                                        <input type="email" required placeholder="e.g. example@email.com" id="email" name="email" autocomplete="on">
+                                        <input type="email" required placeholder="e.g. example@email.com" id="email" name="Email" autocomplete="on">
                                     </div>
                                 </div>
                                 <div class="groupBookingsRow50">
                                     <div class="groupBookingsInputBox">
                                         <span>Check In</span>
-                                        <input type="date" required id="check_in" name="check_in">
+                                        <input type="date" required id="check_in" name="cCheck In">
                                     </div>
                                     <div class="groupBookingsInputBox">
                                         <span>Check Out</span>
-                                        <input type="date" required id="check_out" name="check_out">
+                                        <input type="date" required id="check_out" name="Check Out">
                                     </div>
                                 </div>
                                 <div class="groupBookingsRow100">
                                     <div class="groupBookingsInputBox">
                                         <span>Number of People</span>
-                                        <input type="number" required placeholder="e.g. 10" id="number_of_people" min="5" max="35" name="number_of_people">
+                                        <input type="number" required placeholder="e.g. 10" id="number_of_people" min="5" max="35" name="Number of People">
                                     </div>
                                 </div>
                                 <div class="groupBookingsRow100">
                                     <div class="groupBookingsInputBox">
                                         <span>Breakfast (Optional)</span>
                                         <div class="radioOptions">
-                                            <input type="radio" id="breakfast_yes" name="breakfast" value="yes">
+                                            <input type="radio" id="breakfast_yes" name="Breakfast" value="yes">
                                             <label for="breakfast_yes">Yes</label>
-                                            <input type="radio" id="breakfast_no" name="breakfast" value="no">
+                                            <input type="radio" id="breakfast_no" name="Breakfast" value="no">
                                             <label for="breakfast_no">No</label>
                                         </div>
                                     </div>
@@ -121,15 +123,16 @@
                                 <div class="groupBookingsRow100">
                                     <div class="groupBookingsInputBox">
                                         <span>Message or Special Request</span>
-                                        <textarea placeholder="Type your meassge here" id="special_request" name="special_request"></textarea>
+                                        <textarea placeholder="Type your meassge here" id="special_request" name="Special Request"></textarea>
                                     </div>
                                 </div>
                                 <div class="groupBookingsRow100">
-                                    <label for="acceptance"><input type="checkbox" required id="acceptance" name="acceptance" value="yes"> By clicking this you agree to Explorer Backpackers Privacy Policy, that this is not an agreement between Explorer Backpackers and you, and communication via email.</label>
+                                    <label for="acceptance"><input type="checkbox" required id="acceptance" name="Acceptance" value="yes"> By clicking this you agree to Explorer Backpackers Privacy Policy, that this is not an agreement between Explorer Backpackers and you, and communication via email.</label>
                                 </div>
                                 <div class="groupBookingsRow80">
                                     <input type="submit" value="Submit" class="submit-button">
                                 </div>
+                                <div id="result"></div>
                             </form>
                         </div>
                     </div>
