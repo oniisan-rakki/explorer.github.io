@@ -119,6 +119,22 @@ function findUsFunction() {
     location.replace("https://maps.app.goo.gl/LMtN9ryRynKNCr7K8");
 }
 
+function socialFacebook() {
+    location.replace("https://www.facebook.com/explorerbackpackers/")
+}
+
+function socialInstagram() {
+    location.replace("https://www.instagram.com/explorer.backpackers/")
+}
+
+function socialTikTok() {
+    location.replace("https://www.tiktok.com/@explorer.backpackers")
+}
+
+function socialTwitter(){
+    location.replace("https://www.twitter.com/@explorer.backpackers")
+}
+
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
