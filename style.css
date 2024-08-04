@@ -116,6 +116,7 @@ nav ul li a:hover {
     color: #606060;
 }
 
+.accessibility a:hover,
 .privacyPolicy a:hover,
 .contactContent div a:hover,
 nav ul li .active {
@@ -126,6 +127,7 @@ nav ul li .active:hover {
     color: #606060;
 }
 
+.fourohfour button,
 nav button {
     padding: 15px 40px;
     border: none;
@@ -142,7 +144,7 @@ nav ul li:last-child {
     margin-right: 0px;
 }
 
-
+.fourohfour button:hover,
 .heroAccommodation button:hover,
 .checkOutFormBox .submit-button:hover,
 .reservationDetails button:hover,
@@ -1336,6 +1338,7 @@ iframe {
     margin-right: 10px;
 }
 
+.accessibility,
 .privacyPolicy,
 .termsAndConditons {
     padding: 50px;
@@ -1363,6 +1366,18 @@ iframe {
     background-attachment: fixed;
 }
 
+.heroAccessibility {
+    position: relative;
+    height: 50vh;
+    margin-top: 160px;
+    background-image: url("pawel-czerwinski-FAlYVtV1kRg-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+.accessibility p,
 .termsAndConditons p,
 .privacyPolicy p {
     line-height: 2;
@@ -1375,12 +1390,35 @@ iframe {
     margin-left: 20px;
 }
 
+.accessibility a,
 .privacyPolicy a {
     color: #000000;
 }
 
 .privacyPolicy h3 {
     margin-top: 30px;
+}
+
+.fourohfour {
+    text-align: center;
+    margin-top: 160px;
+    padding: 50px;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.fourohfour img {
+    width: 300px;
+    height: 200px;
+}
+
+.fourohfour button {
+    margin: 20px;
+}
+.fourohfour p {
+    margin-bottom: 45px;
 }
 
 @media only screen and (min-width: 301px) and (max-width: 400px) {

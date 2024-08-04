@@ -118,3 +118,9 @@ function bookTourFunction() {
 function findUsFunction() {
     location.replace("https://maps.app.goo.gl/LMtN9ryRynKNCr7K8");
 }
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-XXXXXXX');
