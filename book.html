@@ -17,7 +17,7 @@
                         <div class="bookNow25">
                             <div class="bookNowInputBox">
                                 <span>Room</span>
-                                <select name="room_selection" id="room_selection">
+                                <select name="Room Selection" id="roomSelection">
                                     <option selected value="selectedAllOptions">All Rooms</option>
                                     <option value="selectedfemaleSixBedDomr">Female Six Bed Dorm</option>
                                     <option value="selectedFemaleFourBedDorm">Female Four Bed Dorm</option>
@@ -31,7 +31,7 @@
                         <div class="bookNow25">
                             <div class="bookNowInputBox">
                                 <span>Guests</span>
-                                <select name="numberOfGuests" id="numberOfGuests">
+                                <select name="Number Of Guests" id="numberOfGuests">
                                     <option selected value="oneGuest">1 Guest</option>
                                     <option value="twoGuest">2 Guests</option>
                                     <option value="threeGuest">3 Guests</option>
@@ -53,7 +53,7 @@
                         </div>
                         <div class="bookNow25">
                             <div class="bookNowInputBox">
-                                <input type="text" placeholder="Discount Code" class="discount">
+                                <input type="text" placeholder="Discount Code" class="discount" id="discountCode">
                             </div>
                         </div>
                         <div class="bookNow25">
@@ -96,19 +96,19 @@
                         <div class="roomOptionPriceSelection">
                             <form>
                                 <div class="roomOptionPriceSelectionRow100">
-                                    <label><input type="radio"> <!--NumberofGuestJS--> Guest | Check-in: | Check-out:</label>
+                                    <label id="normalRate"><input type="radio"> <!--NumberofGuestJS--> Guest | Check-in: | Check-out:</label>
                                 </div>
                                 <div class="roomOptionPriceSelectionRow100">
-                                    <label><input type="radio"> Guest (Student Discount - 10%)</label>
+                                    <label id="studentRate"><input type="radio"> Guest (Student Discount - 10%)</label>
                                 </div>
                                 <div class="roomOptionPriceSelectionRow100">
-                                    <label><input type="radio"> Guest (Elderly Discount - 15%)</label>
+                                    <label id="elderlyRate"><input type="radio"> Guest (Elderly Discount - 15%)</label>
                                 </div>
                                 <div class="roomOptionPriceSelectionRow100">
-                                    <label><input type="radio"> 3 Nights (One Free Night)</label>
+                                    <label id="threeNights"><input type="radio"> 3 Nights (One Free Night)</label>
                                 </div>
                                 <div class="roomOptionPriceSelectionRow100">
-                                    <label><input type="radio"> Guest (Monthly Rate - 40%)</label>
+                                    <label id="monthlyRate"><input type="radio"> Guest (Monthly Rate - 40%)</label>
                                 </div>
                             </form>
                         </div>

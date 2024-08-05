@@ -140,3 +140,33 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 
 gtag('config', 'G-XXXXXXX');
+
+// cloudbeds api for available room types
+const cloudbedsRoomTypes = 'https://api.cloudbeds.com/api/v1.2/getRooms';
+
+// yoco api
+const yoco = 'https://payments.yoco.com/api/checkouts';
+
+// cloudbeds api adds a reservation to the selected property
+const cloudbedsPostReservation = 'https://api.cloudbeds.com/api/v1.2/postReservation';
+
+// cloudbeds api for payment after yoco successful payment
+const cloudbedsPostPayment = 'https://api.cloudbeds.com/api/v1.2/postPayment';
+
+// function to take the default values 
+
+// function to create a list of room types available and or filter the room types 
+function getRooms() {
+    const room = document.getElementById('roomSelection').value;
+    const guests = document.getElementById('numberOfGuests').value;
+    const checkIn = document.getElementById('check_in').value;
+    const checkOut = document.getElementById('check_out').value;
+    const discountCode = document.getElementById('discountCode').value;
+}
+
+function slideInfo() {}
+
+// function to open slide
+function openSlide() {
+
+}
