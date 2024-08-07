@@ -1,3 +1,27 @@
+let slideIndex = [1,1,1,1,1];
+let slideId = ["mySlides" ,"mySlides1", "mySlides2", "mySlides3", "mySlides4"]
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+showSlides(1, 3);
+showSlides(1, 4);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const checkInInput = document.getElementById("check_in");
     const checkOutInput = document.getElementById("check_out");
@@ -141,8 +165,55 @@ gtag('js', new Date());
 
 gtag('config', 'G-XXXXXXX');
 
+// yoco API key
+const yocoApiKey = "";
+
+// cloudbeds API key
+const cloudbedsApiKey = "";
+
+// function to take the default values 
+
+
 // cloudbeds api for available room types
 const cloudbedsRoomTypes = 'https://api.cloudbeds.com/api/v1.2/getRooms';
+
+// function to create a list of room types available and or filter the room types 
+function getRooms() {
+    const room = document.getElementById('roomSelection').value;
+    const guests = document.getElementById('numberOfGuests').value;
+    const checkIn = document.getElementById('check_in').value;
+    const checkOut = document.getElementById('check_out').value;
+    const discountCode = document.getElementById('discountCode').value;
+
+    const femSix = document.getElementById('femSix')
+    const femFour = document.getElementById('femFour')
+    const mixEight = document.getElementById('mixEight')
+    const mixEightOut = document.getElementById('mixEightOut')
+    const priRoom = document.getElementById('priRoom')
+
+    switch(room) {
+        case 'selectedAllOptions':
+        case 'selectedfemaleSixBedDorm':
+            femFour.style.display = "none"
+            mixEight.style.display = "none"
+            mixEightOut.style.display = "none"
+            priRoom.style.display = "none"
+        case 'selectedFemaleFourBedDorm':
+            femSix.style.display = "none"
+            mixEight.style.display = "none"
+            mixEightOut.style.display = "none"
+            priRoom.style.display = "none"
+        case 'selectedMixedEightBedDorm':
+        case 'selectedMixedEightBedDormOutside':
+        case 'selectedPrivateQueenRoom':
+    }
+}
+
+function slideInfo() {}
+
+// function to open slide
+function openSlide() {
+}
 
 // yoco api
 const yoco = 'https://payments.yoco.com/api/checkouts';
@@ -153,20 +224,3 @@ const cloudbedsPostReservation = 'https://api.cloudbeds.com/api/v1.2/postReserva
 // cloudbeds api for payment after yoco successful payment
 const cloudbedsPostPayment = 'https://api.cloudbeds.com/api/v1.2/postPayment';
 
-// function to take the default values 
-
-// function to create a list of room types available and or filter the room types 
-function getRooms() {
-    const room = document.getElementById('roomSelection').value;
-    const guests = document.getElementById('numberOfGuests').value;
-    const checkIn = document.getElementById('check_in').value;
-    const checkOut = document.getElementById('check_out').value;
-    const discountCode = document.getElementById('discountCode').value;
-}
-
-function slideInfo() {}
-
-// function to open slide
-function openSlide() {
-
-}
