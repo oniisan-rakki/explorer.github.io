@@ -1,5 +1,6 @@
+// Slides on Book Now page
 let slideIndex = [1,1,1,1,1];
-let slideId = ["mySlides" ,"mySlides1", "mySlides2", "mySlides3", "mySlides4"]
+let slideId = ["mySlides" ,"mySlides1", "mySlides2", "mySlides3", "mySlides4"];
 showSlides(1, 0);
 showSlides(1, 1);
 showSlides(1, 2);
@@ -8,19 +9,35 @@ showSlides(1, 4);
 
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
-}
+};
 
 function showSlides(n, no) {
   let i;
   let x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}    
-  if (n < 1) {slideIndex[no] = x.length}
+  if (n > x.length) {slideIndex[no] = 1};    
+  if (n < 1) {slideIndex[no] = x.length};
   for (i = 0; i < x.length; i++) {
      x[i].style.display = "none";  
-  }
+  };
   x[slideIndex[no]-1].style.display = "block";  
-}
+};
 
+// Mobile Menu
+let openMenu = document.getElementById("hamburger");
+let closeMenu = document.getElementById("close");
+let mobileMenu = document.getElementById("mobileMenu");
+
+openMenu.addEventListener('click', () => {
+    openMenu.style.display = "none";
+    closeMenu.style.display = "grid";
+    mobileMenu.style.display = "grid";
+});
+
+closeMenu.addEventListener('click', () => {
+    openMenu.style.display = "grid";
+    closeMenu.style.display = "none";
+    mobileMenu.style.display = "none";
+});
 
 document.addEventListener('DOMContentLoaded', () => {
     const checkInInput = document.getElementById("check_in");
@@ -113,27 +130,6 @@ form.addEventListener('submit', function(e) {
 // showExperiences()
 // openChat()
 
-// Mobile Menu
-let openMenu = document.getElementById("hamburger");
-let closeMenu = document.getElementById("close");
-let mobileMenu = document.getElementById("mobileMenu");
-
-openMenu.addEventListener("click", function() {
-    openMenu.style.display = "none";
-    closeMenu.style.display = "grid";
-    mobileMenu.style.display = "grid";
-});
-
-closeMenu.addEventListener("click", function() {
-    openMenu.style.display = "grid";
-    closeMenu.style.display = "none";
-    mobileMenu.style.display = "none";
-});
-
-// goToNextSectionHome()
-// goToNextSectionAccommodation()
-// goToNextSectionGroupBookings()
-
 // Book Tour Redirect
 function bookTourFunction() {
     location.replace("https://www.explorertours.com");
@@ -143,6 +139,7 @@ function findUsFunction() {
     location.replace("https://maps.app.goo.gl/LMtN9ryRynKNCr7K8");
 }
 
+// Social Media Redirects
 function socialFacebook() {
     location.replace("https://www.facebook.com/explorerbackpackers/")
 }
@@ -159,6 +156,7 @@ function socialTwitter(){
     location.replace("https://www.twitter.com/@explorer.backpackers")
 }
 
+// Google Analytics
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
@@ -176,6 +174,8 @@ const cloudbedsApiKey = "";
 
 // cloudbeds api for available room types
 const cloudbedsRoomTypes = 'https://api.cloudbeds.com/api/v1.2/getRooms';
+
+let amount = 0;
 
 // function to create a list of room types available and or filter the room types 
 function getRooms() {
