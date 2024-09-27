@@ -1021,7 +1021,7 @@ iframe {
     width: 0%; /*change to 20%*/
     padding: 100px 20px;
     height: 100vh;
-    position: relative;
+    position: sticky;
     display: none;
 }
 
@@ -1039,7 +1039,11 @@ iframe {
 
 .reservationDetails h4 {
     font-size: 16px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+}
+
+.reservationDetails p {
+    margin-bottom: 15px;
 }
 
 .reservationDetailsContainer form input{
@@ -1250,7 +1254,7 @@ iframe {
     width: 100%;
 }
 
-.bookNowBox span {
+.bookNowBox label {
     font-size: 11.5px;
     font-weight: 500;
     letter-spacing: 1.5px;
